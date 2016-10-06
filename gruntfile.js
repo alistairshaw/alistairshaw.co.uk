@@ -66,7 +66,7 @@ module.exports = function (grunt) {
 			main: {
 				files: [
 					{expand: true, src: ['node_modules/font-awesome/fonts/*'], dest: 'public/fonts/', filter: 'isFile', flatten: true},
-					{expand: true, src: ['resources/img/*'], dest: 'public/img/', filter: 'isFile', flatten: true}
+					{expand: true, cwd: 'resources/img/', src: ['**'], dest: 'public/img/', filter: 'isFile', flatten: false}
 				]
 			}
 		},

@@ -36,21 +36,23 @@ h1 {
 
 h2 {
   font-weight: 200;
-  font-size: 2.6em;
-  margin: 88px 0 40px; }
-
-h3 {
-  font-weight: 200;
-  font-size: 2.2em;
-  margin: 80px 0 40px;
+  font-size: 2em;
+  margin: 88px 0 40px;
   color: #1abc9c; }
 
-h4 {
+h3 {
   font-weight: 600;
+  font-size: 1.4em;
+  margin: 80px 0 40px;
+  color: #353c4f; }
+
+h4 {
+  font-size: 1.4em;
+  font-weight: 400;
   margin: 80px 0 40px; }
 
 h5 {
-  font-size: 1em;
+  font-size: 1.2em;
   font-weight: 600;
   margin: 80px 0 40px; }
 
@@ -59,6 +61,28 @@ ul, ol, p {
 
 p, li {
   letter-spacing: 1px; }
+
+.clearfix:after, .row:after, .tool-icons:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+.container, .about {
+  max-width: 1110px;
+  margin: auto;
+  padding: 0 40px; }
+
+.row {
+  margin: -20px; }
+
+.col {
+  float: left;
+  width: 50%;
+  padding: 0 20px; }
+  .col.one-third {
+    width: 33.33%; }
+  .col.two-thirds {
+    width: 66.66%; }
 
 /*!
  *  Font Awesome 4.6.3 by @davegandy - http://fontawesome.io - @fontawesome
@@ -2251,9 +2275,12 @@ p, li {
   overflow: visible;
   clip: auto; }
 
+*, *:after, *:before {
+  box-sizing: border-box; }
+
 body, html {
   height: 100%;
-  background: #f0f2f7; }
+  background: #f0f0f0; }
 
 body {
   margin: 0;
@@ -2261,11 +2288,6 @@ body {
 
 a {
   transition: all .5s ease; }
-
-.container, .about {
-  max-width: 1110px;
-  margin: auto;
-  padding: 0 40px; }
 
 .social {
   text-align: center; }
@@ -2340,17 +2362,234 @@ a {
     .hero .social a {
       color: white;
       display: inline-block;
-      padding: 3px;
       border: 1px solid white;
       border-radius: 50%;
       font-size: 13px;
-      width: 20px;
-      height: 20px;
+      padding: 3px;
+      width: 26px;
+      height: 26px;
       overflow: hidden;
       margin: 0 5px; }
       .hero .social a:hover {
         color: #e74c3c;
         border-color: #e74c3c; }
+
+.stats {
+  margin-top: 40px; }
+  .stats h2 {
+    margin: 0 0 6px 0;
+    color: #5e6a8c;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    font-weight: 400;
+    letter-spacing: 2px; }
+    .stats h2.currently-working-with {
+      text-align: center; }
+  .stats p {
+    margin: 6px 0;
+    font-size: 0.9em; }
+    .stats p label {
+      display: inline-block;
+      min-width: 100px;
+      font-weight: 600; }
+
+.tech-label, .tool-icons li:before {
+  position: absolute;
+  display: block;
+  z-index: 2;
+  background: #353c4f;
+  color: white;
+  padding: 6px 12px;
+  top: -42px;
+  left: 0;
+  width: 100%;
+  opacity: 0;
+  transition: opacity .5s ease;
+  text-align: center; }
+
+.tool-icons {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  position: relative; }
+  .tool-icons li {
+    float: left;
+    width: 84px;
+    height: 84px;
+    overflow: hidden;
+    background-color: #f0f0f0;
+    background-size: 50% 50% !important;
+    border-radius: 50%;
+    transition: all .5s ease; }
+    .tool-icons li a {
+      display: block;
+      height: 100%;
+      width: 100%; }
+    .tool-icons li:hover {
+      background-color: #ffffff;
+      background-size: 65% 65% !important; }
+      .tool-icons li:hover:before {
+        opacity: 1; }
+    .tool-icons li.php {
+      background-image: url("../img/dev-tools/php.png");
+      background-size: 75px 75px;
+      background-position: center center;
+      background-repeat: no-repeat; }
+      @media all and (-webkit-min-device-pixel-ratio: 1.5), all and (-o-min-device-pixel-ratio: 3 / 2), all and (min--moz-device-pixel-ratio: 1.5), all and (min-device-pixel-ratio: 1.5) {
+        .tool-icons li.php {
+          background-image: url("../img/dev-tools/php@2x.png"); } }
+      .tool-icons li.php:before {
+        content: "PHP"; }
+    .tool-icons li.elasticsearch {
+      background-image: url("../img/dev-tools/elasticsearch.png");
+      background-size: 75px 75px;
+      background-position: center center;
+      background-repeat: no-repeat; }
+      @media all and (-webkit-min-device-pixel-ratio: 1.5), all and (-o-min-device-pixel-ratio: 3 / 2), all and (min--moz-device-pixel-ratio: 1.5), all and (min-device-pixel-ratio: 1.5) {
+        .tool-icons li.elasticsearch {
+          background-image: url("../img/dev-tools/elasticsearch@2x.png"); } }
+      .tool-icons li.elasticsearch:before {
+        content: "ELASTIC SEARCH"; }
+    .tool-icons li.mongodb {
+      background-image: url("../img/dev-tools/mongodb.png");
+      background-size: 75px 75px;
+      background-position: center center;
+      background-repeat: no-repeat; }
+      @media all and (-webkit-min-device-pixel-ratio: 1.5), all and (-o-min-device-pixel-ratio: 3 / 2), all and (min--moz-device-pixel-ratio: 1.5), all and (min-device-pixel-ratio: 1.5) {
+        .tool-icons li.mongodb {
+          background-image: url("../img/dev-tools/mongodb@2x.png"); } }
+      .tool-icons li.mongodb:before {
+        content: "MONGODB"; }
+    .tool-icons li.memcached {
+      background-image: url("../img/dev-tools/memcached.png");
+      background-size: 75px 75px;
+      background-position: center center;
+      background-repeat: no-repeat; }
+      @media all and (-webkit-min-device-pixel-ratio: 1.5), all and (-o-min-device-pixel-ratio: 3 / 2), all and (min--moz-device-pixel-ratio: 1.5), all and (min-device-pixel-ratio: 1.5) {
+        .tool-icons li.memcached {
+          background-image: url("../img/dev-tools/memcached@2x.png"); } }
+      .tool-icons li.memcached:before {
+        content: "MEMCACHED"; }
+    .tool-icons li.mysql {
+      background-image: url("../img/dev-tools/mysql.png");
+      background-size: 75px 75px;
+      background-position: center center;
+      background-repeat: no-repeat; }
+      @media all and (-webkit-min-device-pixel-ratio: 1.5), all and (-o-min-device-pixel-ratio: 3 / 2), all and (min--moz-device-pixel-ratio: 1.5), all and (min-device-pixel-ratio: 1.5) {
+        .tool-icons li.mysql {
+          background-image: url("../img/dev-tools/mysql@2x.png"); } }
+      .tool-icons li.mysql:before {
+        content: "MYSQL"; }
+    .tool-icons li.rabbitmq {
+      background-image: url("../img/dev-tools/rabbitmq.png");
+      background-size: 75px 75px;
+      background-position: center center;
+      background-repeat: no-repeat; }
+      @media all and (-webkit-min-device-pixel-ratio: 1.5), all and (-o-min-device-pixel-ratio: 3 / 2), all and (min--moz-device-pixel-ratio: 1.5), all and (min-device-pixel-ratio: 1.5) {
+        .tool-icons li.rabbitmq {
+          background-image: url("../img/dev-tools/rabbitmq@2x.png"); } }
+      .tool-icons li.rabbitmq:before {
+        content: "RABBIT MQ"; }
+    .tool-icons li.laravel {
+      background-image: url("../img/dev-tools/laravel.png");
+      background-size: 75px 75px;
+      background-position: center center;
+      background-repeat: no-repeat; }
+      @media all and (-webkit-min-device-pixel-ratio: 1.5), all and (-o-min-device-pixel-ratio: 3 / 2), all and (min--moz-device-pixel-ratio: 1.5), all and (min-device-pixel-ratio: 1.5) {
+        .tool-icons li.laravel {
+          background-image: url("../img/dev-tools/laravel@2x.png"); } }
+      .tool-icons li.laravel:before {
+        content: "LARAVEL"; }
+    .tool-icons li.javascript {
+      background-image: url("../img/dev-tools/javascript.png");
+      background-size: 75px 75px;
+      background-position: center center;
+      background-repeat: no-repeat; }
+      @media all and (-webkit-min-device-pixel-ratio: 1.5), all and (-o-min-device-pixel-ratio: 3 / 2), all and (min--moz-device-pixel-ratio: 1.5), all and (min-device-pixel-ratio: 1.5) {
+        .tool-icons li.javascript {
+          background-image: url("../img/dev-tools/javascript@2x.png"); } }
+      .tool-icons li.javascript:before {
+        content: "JAVASCRIPT"; }
+    .tool-icons li.sass {
+      background-image: url("../img/dev-tools/sass.png");
+      background-size: 75px 75px;
+      background-position: center center;
+      background-repeat: no-repeat; }
+      @media all and (-webkit-min-device-pixel-ratio: 1.5), all and (-o-min-device-pixel-ratio: 3 / 2), all and (min--moz-device-pixel-ratio: 1.5), all and (min-device-pixel-ratio: 1.5) {
+        .tool-icons li.sass {
+          background-image: url("../img/dev-tools/sass@2x.png"); } }
+      .tool-icons li.sass:before {
+        content: "SASS"; }
+    .tool-icons li.grunt {
+      background-image: url("../img/dev-tools/grunt.png");
+      background-size: 75px 75px;
+      background-position: center center;
+      background-repeat: no-repeat; }
+      @media all and (-webkit-min-device-pixel-ratio: 1.5), all and (-o-min-device-pixel-ratio: 3 / 2), all and (min--moz-device-pixel-ratio: 1.5), all and (min-device-pixel-ratio: 1.5) {
+        .tool-icons li.grunt {
+          background-image: url("../img/dev-tools/grunt@2x.png"); } }
+      .tool-icons li.grunt:before {
+        content: "GRUNT"; }
+    .tool-icons li.npm {
+      background-image: url("../img/dev-tools/npm.png");
+      background-size: 75px 75px;
+      background-position: center center;
+      background-repeat: no-repeat; }
+      @media all and (-webkit-min-device-pixel-ratio: 1.5), all and (-o-min-device-pixel-ratio: 3 / 2), all and (min--moz-device-pixel-ratio: 1.5), all and (min-device-pixel-ratio: 1.5) {
+        .tool-icons li.npm {
+          background-image: url("../img/dev-tools/npm@2x.png"); } }
+      .tool-icons li.npm:before {
+        content: "NPM"; }
+    .tool-icons li.deployer {
+      background-image: url("../img/dev-tools/deployer.png");
+      background-size: 75px 75px;
+      background-position: center center;
+      background-repeat: no-repeat; }
+      @media all and (-webkit-min-device-pixel-ratio: 1.5), all and (-o-min-device-pixel-ratio: 3 / 2), all and (min--moz-device-pixel-ratio: 1.5), all and (min-device-pixel-ratio: 1.5) {
+        .tool-icons li.deployer {
+          background-image: url("../img/dev-tools/deployer@2x.png"); } }
+      .tool-icons li.deployer:before {
+        content: "DEPLOYER"; }
+    .tool-icons li.bamboo {
+      background-image: url("../img/dev-tools/bamboo.png");
+      background-size: 75px 75px;
+      background-position: center center;
+      background-repeat: no-repeat; }
+      @media all and (-webkit-min-device-pixel-ratio: 1.5), all and (-o-min-device-pixel-ratio: 3 / 2), all and (min--moz-device-pixel-ratio: 1.5), all and (min-device-pixel-ratio: 1.5) {
+        .tool-icons li.bamboo {
+          background-image: url("../img/dev-tools/bamboo@2x.png"); } }
+      .tool-icons li.bamboo:before {
+        content: "BAMBOO"; }
+    .tool-icons li.jira {
+      background-image: url("../img/dev-tools/jira.png");
+      background-size: 75px 75px;
+      background-position: center center;
+      background-repeat: no-repeat; }
+      @media all and (-webkit-min-device-pixel-ratio: 1.5), all and (-o-min-device-pixel-ratio: 3 / 2), all and (min--moz-device-pixel-ratio: 1.5), all and (min-device-pixel-ratio: 1.5) {
+        .tool-icons li.jira {
+          background-image: url("../img/dev-tools/jira@2x.png"); } }
+      .tool-icons li.jira:before {
+        content: "JIRA"; }
+    .tool-icons li.gulp {
+      background-image: url("../img/dev-tools/gulp.png");
+      background-size: 75px 75px;
+      background-position: center center;
+      background-repeat: no-repeat; }
+      @media all and (-webkit-min-device-pixel-ratio: 1.5), all and (-o-min-device-pixel-ratio: 3 / 2), all and (min--moz-device-pixel-ratio: 1.5), all and (min-device-pixel-ratio: 1.5) {
+        .tool-icons li.gulp {
+          background-image: url("../img/dev-tools/gulp@2x.png"); } }
+      .tool-icons li.gulp:before {
+        content: "GULP"; }
+    .tool-icons li.android {
+      background-image: url("../img/dev-tools/android.png");
+      background-size: 75px 75px;
+      background-position: center center;
+      background-repeat: no-repeat; }
+      @media all and (-webkit-min-device-pixel-ratio: 1.5), all and (-o-min-device-pixel-ratio: 3 / 2), all and (min--moz-device-pixel-ratio: 1.5), all and (min-device-pixel-ratio: 1.5) {
+        .tool-icons li.android {
+          background-image: url("../img/dev-tools/android@2x.png"); } }
+      .tool-icons li.android:before {
+        content: "ANDROID"; }
 
 footer {
   background: #353c4f;

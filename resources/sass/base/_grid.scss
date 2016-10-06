@@ -1,0 +1,33 @@
+$base-spacing: 20px !default;
+$container-width: 1190px !default;
+
+.clearfix {
+    &:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+}
+
+.container {
+    max-width: $container-width - ($base-spacing * 2);
+    margin: auto;
+    padding: 0 $base-spacing;
+}
+
+.row {
+    @extend .clearfix;
+    margin: 0 -$base-spacing / 2;
+}
+
+.col {
+    float: left;
+    width: 50%;
+    padding: 0 $base-spacing / 2;
+    &.one-third {
+        width: 33.33%;
+    }
+    &.two-thirds {
+        width: 66.66%
+    }
+}

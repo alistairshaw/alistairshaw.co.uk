@@ -1,6 +1,8 @@
 $background2: white !default;
-$base-spacing: 20px !default;
-$container-width: 1190px !default;
+
+*, *:after, *:before {
+    box-sizing: border-box;
+}
 
 body, html {
     height: 100%;
@@ -14,10 +16,4 @@ body {
 
 a {
     transition: all .5s ease;
-}
-
-.container {
-    max-width: $container-width - ($base-spacing * 2);
-    margin: auto;
-    padding: 0 $base-spacing;
 }
