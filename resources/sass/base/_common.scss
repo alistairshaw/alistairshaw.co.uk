@@ -1,3 +1,5 @@
+$background2: white !default;
+
 body, html {
     height: 100%;
     background: $background2;
@@ -6,4 +8,8 @@ body, html {
 body {
     margin: 0;
     padding: 0;
+}
+
+a {
+    transition: all .5s ease;
 }

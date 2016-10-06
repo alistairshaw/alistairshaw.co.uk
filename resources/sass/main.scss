@@ -1,8 +1,10 @@
 @import "../../node_modules/normalize.css/normalize.css";
 
-@import "base/colours";
+@import "base/variables";
 @import "base/mixins";
 @import "base/typography";
+@import "base/icons";
 @import "base/common";
 
+@import "components/social";
 @import "components/hero";

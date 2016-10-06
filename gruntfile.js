@@ -5,12 +5,12 @@ module.exports = function (grunt) {
 		pkg: grunt.file.readJSON('package.json'),
 
 		concat: {
-			javascripts: {
+			/*javascripts: {
 				src: [
 					'resources/js/main.js'
 				],
 				dest: 'public/js/production.min.js'			// we concatenate the JS to here to if we need to, we can skip the uglification for debugging
-			},
+			},*/
 			css: {
 				src: [
 					'resources/css/main.css'
@@ -40,7 +40,18 @@ module.exports = function (grunt) {
 			}
 		},
 
-		uglify: {
+        browserify: {
+            dist: {
+                options: {
+                    transform: [['babelify', {presets: ['es2015']}]]
+                },
+                files: {
+                    'public/js/production.min.js': ['resources/js/main.js']
+                }
+            }
+        },
+
+		/*uglify: {
 			main: {
 				files: {
 					'public/js/production.min.js': ['public/js/production.min.js'] // we overwrite the min.js file that we created in concat
@@ -49,13 +60,13 @@ module.exports = function (grunt) {
 			options: {
 				mangle: false
 			}
-		},
+		},*/
 
 		copy: {
 			main: {
 				files: [
 					{expand: true, src: ['node_modules/font-awesome/fonts/*'], dest: 'public/fonts/', filter: 'isFile', flatten: true},
-					{expand: true, src: ['node_modules/font-awesome/fonts/*'], dest: 'public/fonts/', filter: 'isFile', flatten: true}
+					{expand: true, src: ['resources/img/*'], dest: 'public/img/', filter: 'isFile', flatten: true}
 				]
 			}
 		},
@@ -64,7 +75,7 @@ module.exports = function (grunt) {
 		watch: {
 			scripts: {
 				files: ['resources/js/**/*.js'],
-				tasks: ['concat:javascripts', 'uglify:individualPages'],
+				tasks: ['browserify'],
 				options: {
 					spawn: false
 				}
@@ -88,7 +99,7 @@ module.exports = function (grunt) {
 
 	require('load-grunt-tasks')(grunt);
 
-	grunt.registerTask('default', ['sass:dist', 'concat', 'uglify:main', 'cssmin', 'autoprefixer:production_css', 'watch']);
-	grunt.registerTask('reload' , ['sass:dist', 'concat', 'uglify:main', 'cssmin', 'autoprefixer:production_css']);
+	grunt.registerTask('default', ['copy', 'sass:dist', 'concat', 'browserify', 'cssmin', 'autoprefixer:production_css', 'watch']);
+	grunt.registerTask('reload' , ['copy', 'sass:dist', 'concat', 'browserify', 'cssmin', 'autoprefixer:production_css']);
 
 };

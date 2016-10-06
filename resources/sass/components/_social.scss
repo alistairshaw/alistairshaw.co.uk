@@ -1,0 +1,13 @@
+$brand-primary: #333 !default;
+
+.social {
+    text-align: center;
+    a {
+        color: $brand-primary;
+        text-decoration: none;
+        &:hover {
+            color: white;
+            text-decoration: none;
+        }
+    }
+}
