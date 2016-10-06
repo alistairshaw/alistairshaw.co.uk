@@ -2390,7 +2390,7 @@ a {
     font-size: 0.9em; }
     .stats p label {
       display: inline-block;
-      min-width: 100px;
+      min-width: 30px;
       font-weight: 600; }
 
 .tech-label, .tool-icons li:before {

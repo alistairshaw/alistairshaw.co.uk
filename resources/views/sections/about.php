@@ -20,7 +20,7 @@
             <p>
                 <label><i class="fa fa-globe"></i></label><span><a href="https://alistairshaw.co.uk">alistairshaw.co.uk</a></span>
             </p>
-            <p><label><i class="fa fa-location-arrow"></i></label><span>Nottingham</span></p>
+            <p><label><i class="fa fa-location-arrow"></i></label><span>Nottingham, United Kingdom</span></p>
         </div>
         <div class="col two-thirds">
             <h2 class="currently-working-with">Currently Working With</h2>
