@@ -1,12 +1,13 @@
 $background1: white !default;
 $base-spacing: 20px !default;
+$face-size: 150px !default;
 
 .photo {
-    @include background-2x('../img/face', 'jpg', 200px, 200px, center center, no-repeat);
+    @include background-2x('../img/face', 'jpg', 260px, 260px, center center, no-repeat);
     border-radius: 50%;
     border: 5px solid $background1;
-    width: 200px;
-    height: 200px;
-    margin: -100px auto $base-spacing auto;
+    width: $face-size;
+    height: $face-size;
+    margin: -($face-size / 2) auto $base-spacing auto;
     z-index: 2;
 }

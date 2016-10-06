@@ -1,86 +1,59 @@
-<h1>Hello World</h1>
-<p>
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-    magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-    pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
-    id est laborum.
-</p>
-<h2>Second Heading</h2>
-<p>
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-    magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-    pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
-    id est laborum.
-</p>
-<ul>
-    <li>Some Line Items</li>
-    <li>Some Line Items 2</li>
-    <li>Some Line Items 3</li>
-    <li>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-        consequat.
-    </li>
-    <li>Some Line Items</li>
-</ul>
-<h3>Third Heading</h3>
-<ol>
-    <li>Some Line Items</li>
-    <li>Some Line Items 2</li>
-    <li>Some Line Items 3</li>
-    <li>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-        consequat.
-    </li>
-    <li>Some Line Items</li>
-</ol>
-<h4>Fourth Heading</h4>
-<p>
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-    magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-    pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
-    id est laborum.
-</p>
-<p>
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-    magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-    pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
-    id est laborum.
-</p>
-<p>
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-    magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-    pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
-    id est laborum.
-</p>
-<h5>Fifth</h5>
-<p>
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-    magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-    pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
-    id est laborum.
-</p>
-
-<h5>Fifth</h5>
-<p>
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-    magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-    pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
-    id est laborum.
-</p>
-<h5>Fifth</h5>
-<p>
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-    magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-    pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
-    id est laborum.
-</p>
+<div class="about">
+    <h1>About Me</h1>
+    <p>
+        Hi, I'm Alistair and I have nearly 20 years of commercial experience as a software developer, architect
+        and entrepreneur. I specialise in the design and development of back-end database systems, including CRM,
+        Email, Video and process management tools, as well as the front-end applications that go with them.
+    </p>
+    <p>
+        My business knowledge and communication skills give me a huge advantage when it comes to translating business
+        requirements into working software, from initial design through to production and maintenance. I also have
+        a great deal of experience as a qualified software project manager, with knowledge of waterfall (Prince2)
+        and a deep understanding of Agile methodologies such as Scrum or Kanban.
+    </p>
+    <!--<h2>Heading 2</h2>
+    <p>
+        Hi, I'm Alistair and I have nearly 20 years of commercial experience as a software developer, architect
+        and entrepreneur. I specialise in the design and development of back-end database systems, including CRM,
+        Email, Video and process management tools, as well as the front-end applications that go with them.
+    </p>
+    <p>
+        Hi, I'm Alistair and I have nearly 20 years of commercial experience as a software developer, architect
+        and entrepreneur. I specialise in the design and development of back-end database systems, including CRM,
+        Email, Video and process management tools, as well as the front-end applications that go with them.
+    </p>
+    <h3>Heading 3</h3>
+    <p>
+        Hi, I'm Alistair and I have nearly 20 years of commercial experience as a software developer, architect
+        and entrepreneur. I specialise in the design and development of back-end database systems, including CRM,
+        Email, Video and process management tools, as well as the front-end applications that go with them.
+    </p>
+    <ul>
+        <li>One</li>
+        <li>Two</li>
+        <li>Three</li>
+    </ul>
+    <h3>Heading 3</h3>
+    <ol>
+        <li>One</li>
+        <li>Two</li>
+        <li>Three</li>
+    </ol>
+    <p>
+        Hi, I'm Alistair and I have nearly 20 years of commercial experience as a software developer, architect
+        and entrepreneur. I specialise in the design and development of back-end database systems, including CRM,
+        Email, Video and process management tools, as well as the front-end applications that go with them.
+    </p>
+    <h4>Heading 4</h4>
+    <p>
+        Hi, I'm Alistair and I have nearly 20 years of commercial experience as a software developer, architect
+        and entrepreneur. I specialise in the design and development of back-end database systems, including CRM,
+        Email, Video and process management tools, as well as the front-end applications that go with them.
+    </p>
+    <h5>Heading 5</h5>
+    <p>
+        Hi, I'm Alistair and I have nearly 20 years of commercial experience as a software developer, architect
+        and entrepreneur. I specialise in the design and development of back-end database systems, including CRM,
+        Email, Video and process management tools, as well as the front-end applications that go with them.
+    </p>-->
+</div>

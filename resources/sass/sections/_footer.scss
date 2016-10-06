@@ -1,0 +1,9 @@
+$font-colour: #333 !default;
+$base-spacing: 20px !default;
+
+footer {
+    background: $font-colour;
+    color: white;
+    margin-top: $base-spacing * 3;
+    padding: $base-spacing 0;
+}

@@ -1,4 +1,4 @@
-@import 'https://fonts.googleapis.com/css?family=Raleway:200,400,600,900';
+@import 'https://fonts.googleapis.com/css?family=Raleway:200,400,600,800,900';
 
 $font-colour: #333 !default;
 $base-spacing: 20px !default;
@@ -13,10 +13,23 @@ body {
 }
 
 h1 {
-    font-weight: 200;
+    text-align: center;
+    font-weight: 800;
     font-size: 3em;
-    color: $brand-secondary;
-    margin: ($base-spacing * 3) 0 $base-spacing;
+    color: darken($font-colour, 10%);
+    margin: ($base-spacing) 0 ($base-spacing);
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    &:after {
+        content: " ";
+        display: block;
+        width: 10%;
+        min-width: 100px;
+        max-width: 200px;
+        height: 0;
+        border-bottom: 1px solid $brand-secondary;
+        margin: $base-spacing / 2 auto $base-spacing auto;
+    }
 }
 
 h2 {
@@ -43,7 +56,7 @@ h5 {
     margin: ($base-spacing * 2) 0 $base-spacing;
 }
 
-ul, ol {
+ul, ol, p {
     margin: ($base-spacing * 0.8) 0 $base-spacing;
 }
 
