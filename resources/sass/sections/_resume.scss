@@ -1,0 +1,161 @@
+$background1: white !default;
+$background2: #f0f0f0 !default;
+$font-colour: #333 !default;
+$base-spacing: 20px !default;
+$brand-primary: #333 !default;
+$brand-secondary: #333 !default;
+$border-color: #444 !default;
+
+.resume {
+    @extend .stripe;
+    background: $background1;
+    text-align: center;
+    h2 {
+        background: $font-colour;
+        color: $background1;
+        padding: 6px 12px;
+        font-size: 1em;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        display: inline-block;
+        margin: 0 auto $base-spacing * 2 auto;
+        position: relative;
+        &:after {
+            font-family: "FontAwesome", sans-serif;
+            content: "\f115";
+            background: $brand-primary;
+            position: absolute;
+            color: white;
+            display: block;
+            width: 40px;
+            height: 40px;
+            margin-left: -20px;
+            border-radius: 50%;
+            line-height: 40px;
+            text-align: center;
+            padding-left: 5px;
+            bottom: -$base-spacing * 2;
+            left: 50%;
+        }
+    }
+}
+
+.timeline {
+    @extend .clearfix;
+    list-style: none;
+    text-align: left;
+    font-size: 0.8em;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    &:before {
+        font-family: "FontAwesome", sans-serif;
+        content: "\f02e";
+        background: darken($background2, 20%);
+        position: absolute;
+        color: $font-colour;
+        display: block;
+        width: 40px;
+        height: 40px;
+        margin-left: -21px;
+        border-radius: 50%;
+        line-height: 40px;
+        text-align: center;
+        padding-left: 2px;
+        bottom: -40px;
+        left: 50%;
+    }
+    li {
+        width: 50%;
+        float: left;
+        padding: $base-spacing / 2;
+        position: relative;
+        border-right: 2px solid $border-color;
+        min-height: 200px;
+        &:after {
+            font-family: "FontAwesome", sans-serif;
+            content: "";
+            display: block;
+            position: absolute;
+            right: -8px;
+            top: $base-spacing;
+            color: $border-color;
+            transition: color .5s ease;
+        }
+        &:first-child {
+            margin-top: 0;
+        }
+        &:nth-child(2) {
+            margin-top: 100px;
+        }
+        &:nth-child(even) {
+            border-right: 0;
+            float: right;
+            &:after {
+                right: auto;
+                left: -6px;
+            }
+            article {
+                &:after {
+                    content: "\f0d9";
+                    left: -13px;
+                    right: auto;
+                    top: -12px;
+                }
+            }
+        }
+        &:hover {
+            &:after {
+                color: $brand-primary;
+            }
+            article {
+                background: $font-colour;
+                color: white;
+                &:after {
+                    color: $font-colour;
+                    opacity: 1;
+                }
+                h3 {
+                    color: $brand-primary;
+                }
+            }
+        }
+        article {
+            background: $background2;
+            transition: background-color .5s ease;
+            border-radius: 5px;
+            padding: $base-spacing / 2;
+            position: relative;
+            &:after {
+                font-family: "FontAwesome", sans-serif;
+                content: "\f0da";
+                position: absolute;
+                right: -13px;
+                top: -11px;
+                font-size: 50px;
+                opacity: 0;
+                color: $background2;
+                transition: all 0.5s ease;
+            }
+            h3 {
+                margin: 0;
+                font-size: 1em;
+                font-weight: 600;
+                text-transform: uppercase;
+            }
+            p {
+                margin: 0;
+                font-weight: 200;
+                &.company {
+                    font-weight: 400;
+                    i {
+                        font-size: 0.3em;
+                        vertical-align: middle;
+                        margin: 0 6px;
+                        color: $brand-primary;
+                    }
+                }
+            }
+        }
+    }
+}

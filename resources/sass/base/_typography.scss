@@ -17,7 +17,7 @@ h1 {
     font-weight: 800;
     font-size: 3em;
     color: darken($font-colour, 10%);
-    margin: ($base-spacing) 0 ($base-spacing);
+    margin: 0 0 ($base-spacing);
     letter-spacing: 3px;
     text-transform: uppercase;
     &:after {

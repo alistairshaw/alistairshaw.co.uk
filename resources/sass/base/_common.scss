@@ -1,4 +1,5 @@
 $background2: white !default;
+$base-spacing: 20px !default;
 
 *, *:after, *:before {
     box-sizing: border-box;
@@ -16,4 +17,8 @@ body {
 
 a {
     transition: all .5s ease;
+}
+
+.stripe {
+    padding: ($base-spacing * 2) 0;
 }

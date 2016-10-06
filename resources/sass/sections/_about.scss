@@ -4,7 +4,8 @@ $background1: white !default;
 $background2: #f0f0f0 !default;
 
 .about {
-    @extend .container;
+    @extend .stripe;
+    background: $background2;
 }
 
 .stats {

@@ -6,7 +6,7 @@ export default function homePhoto(homePhoto) {
     let doc = document.documentElement;
     let current = (window.pageYOffset || doc.scrollTop) - (doc.clientTop || 0);
 
-    let newTopMargin = current / ratio * -1;
+    let newTopMargin = current / ratio * -0.25;
     if (newTopMargin < -(photoHeight / 2)) newTopMargin = -(photoHeight / 2);
     homePhoto.style.marginTop = newTopMargin + 'px';
 }
