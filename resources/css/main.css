@@ -2250,6 +2250,21 @@ a {
       color: white;
       text-decoration: none; }
 
+.photo {
+  background-image: url("../img/face.jpg");
+  background-size: 200px 200px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  border: 5px solid #ffffff;
+  width: 200px;
+  height: 200px;
+  margin: -100px auto 18px auto;
+  z-index: 2; }
+  @media all and (-webkit-min-device-pixel-ratio: 1.5), all and (-o-min-device-pixel-ratio: 3 / 2), all and (min--moz-device-pixel-ratio: 1.5), all and (min-device-pixel-ratio: 1.5) {
+    .photo {
+      background-image: url("../img/face@2x.jpg"); } }
+
 .hero {
   background-image: url("../img/hero.jpg");
   background-size: 1920px 1080px;

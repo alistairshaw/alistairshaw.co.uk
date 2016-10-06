@@ -1,3 +1,6 @@
+<?php use App\App;
+
+require_once('../app/app.php'); ?>
 <!doctype html>
 <html lang="en">
 <head>
@@ -10,8 +13,8 @@
 </head>
 <body>
 
-<?php include('../resources/views/hero.php'); ?>
-<?php include('../resources/views/about.php'); ?>
+<?php App::view('sections/hero') ?>
+<?php App::view('sections/about') ?>
 
 </body>
 </html>

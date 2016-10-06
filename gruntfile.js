@@ -51,7 +51,7 @@ module.exports = function (grunt) {
             }
         },
 
-		/*uglify: {
+		uglify: {
 			main: {
 				files: {
 					'public/js/production.min.js': ['public/js/production.min.js'] // we overwrite the min.js file that we created in concat
@@ -60,7 +60,7 @@ module.exports = function (grunt) {
 			options: {
 				mangle: false
 			}
-		},*/
+		},
 
 		copy: {
 			main: {
@@ -87,6 +87,13 @@ module.exports = function (grunt) {
 					spawn: false
 				}
 			},
+            img: {
+                files: ['resources/img/**/*.*'],
+                tasks: ['copy'],
+                options: {
+                    spawn: false
+                }
+            },
 			grunt: {
 				files: ['gruntfile.js'],
 				tasks: ['reload'],
@@ -99,7 +106,7 @@ module.exports = function (grunt) {
 
 	require('load-grunt-tasks')(grunt);
 
-	grunt.registerTask('default', ['copy', 'sass:dist', 'concat', 'browserify', 'cssmin', 'autoprefixer:production_css', 'watch']);
-	grunt.registerTask('reload' , ['copy', 'sass:dist', 'concat', 'browserify', 'cssmin', 'autoprefixer:production_css']);
+	grunt.registerTask('default', ['copy', 'sass:dist', 'concat', 'browserify', 'uglify', 'cssmin', 'autoprefixer:production_css', 'watch']);
+	grunt.registerTask('reload' , ['copy', 'sass:dist', 'concat', 'browserify', 'uglify', 'cssmin', 'autoprefixer:production_css']);
 
 };
