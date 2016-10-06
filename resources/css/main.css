@@ -1,0 +1,74 @@
+@import url(../../node_modules/normalize.css/normalize.css);
+@import 'https://fonts.googleapis.com/css?family=Raleway:200,400,600,900';
+body {
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  line-height: 1.7;
+  color: #353c4f; }
+
+h1 {
+  font-weight: 200;
+  font-size: 3em;
+  color: #1abc9c;
+  margin: 40px 0 30px; }
+
+h2 {
+  font-weight: 200;
+  font-size: 2.6em;
+  margin: 30px 0 20px; }
+
+h3 {
+  font-weight: 200;
+  font-size: 2.2em;
+  margin: 20px 0 10px;
+  color: #1abc9c; }
+
+body, html {
+  height: 100%;
+  background: #f0f2f7; }
+
+body {
+  margin: 0;
+  padding: 0; }
+
+.hero {
+  background-image: url("../img/hero3.jpg");
+  background-size: 1920px 1080px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  position: relative; }
+  @media all and (-webkit-min-device-pixel-ratio: 1.5), all and (-o-min-device-pixel-ratio: 3 / 2), all and (min--moz-device-pixel-ratio: 1.5), all and (min-device-pixel-ratio: 1.5) {
+    .hero {
+      background-image: url("../img/hero3@2x.jpg"); } }
+  .hero .cover {
+    width: 100%;
+    height: 100%;
+    background: rgba(53, 60, 79, 0.8); }
+    .hero .cover .container {
+      padding-top: 200px; }
+    .hero .cover .brand {
+      display: block;
+      background: #fff;
+      width: 75px;
+      height: 75px;
+      margin: auto; }
+      .hero .cover .brand img {
+        max-width: 100%;
+        max-height: 100%; }
+    .hero .cover h1 {
+      text-align: center;
+      color: white;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 3px;
+      margin: 30px 0 0 0; }
+    .hero .cover h2 {
+      text-align: center;
+      color: white;
+      font-weight: 400;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      font-size: 1em;
+      margin: 0; }

@@ -1,0 +1,28 @@
+@import 'https://fonts.googleapis.com/css?family=Raleway:200,400,600,900';
+
+body {
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    line-height: 1.7;
+    color: $font-colour;
+}
+
+h1 {
+    font-weight: 200;
+    font-size: 3em;
+    color: $brand-secondary;
+    margin: 40px 0 30px;
+}
+
+h2 {
+    font-weight: 200;
+    font-size: 2.6em;
+    margin: 30px 0 20px;
+}
+
+h3 {
+    font-weight: 200;
+    font-size: 2.2em;
+    margin: 20px 0 10px;
+    color: $brand-secondary;
+}
