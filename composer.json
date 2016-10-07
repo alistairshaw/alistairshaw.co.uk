@@ -1,0 +1,19 @@
+{
+    "name": "alistair/alistairshaw.co.uk",
+    "type": "website",
+    "authors": [
+        {
+            "name": "Alistair Shaw",
+            "email": "alistairshaw@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^3.1"
+    }
+}

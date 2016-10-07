@@ -7,8 +7,8 @@
             </a>
             <h1>Alistair Shaw</h1>
             <h2>Software Architect + Programmer</h2>
-            <?php App::view('components/social') ?>
+            <?php echo App::view('components/social') ?>
         </div>
     </div>
-    <?php App::view('components/photo') ?>
+    <?php echo App::view('components/photo') ?>
 </div>

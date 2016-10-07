@@ -2,15 +2,15 @@
     <div class="container">
         <h1>About Me</h1>
         <p>
-            Hi, I'm Alistair and I have nearly 20 years of commercial experience as a software developer, architect
-            and entrepreneur. I specialise in the design and development of back-end database systems, including CRM,
-            Email, Video and process management tools, as well as the front-end applications that go with them.
+            Hi, I'm Alistair and I have nearly 20 years of commercial experience in Software Development. I specialise
+            in the design and development of back-end database systems, including CRM, CMS, Email, Video and Process
+            Management tools, as well as the front-end applications and websites that go with them.
         </p>
         <p>
             My business knowledge and communication skills give me a huge advantage when it comes to translating business
             requirements into working software, from initial design through to production and maintenance. I also have
-            a great deal of experience as a qualified software project manager, with knowledge of waterfall (Prince2)
-            and a deep understanding of Agile methodologies such as Scrum or Kanban.
+            a great deal of experience as a qualified software project manager, with in-depth experience of
+            Waterfall (Prince2) and a deep understanding of Agile methodologies (Scrum and Kanban).
         </p>
         <div class="row stats">
             <div class="col one-third">
@@ -24,7 +24,7 @@
                 <p><label><i class="fa fa-location-arrow"></i></label><span>Nottingham, United Kingdom</span></p>
             </div>
             <div class="col two-thirds">
-                <h2 class="currently-working-with">Currently Working With</h2>
+                <h2 class="currently-working-with">Currently Enjoy Working With</h2>
                 <ul class="tool-icons">
                     <li class="php"><a href="http://www.php.net/" target="_blank"></a></li>
                     <li class="laravel"><a href="https://laravel.com/" target="_blank"></a></li>
