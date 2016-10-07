@@ -5,4 +5,3 @@
 <?php echo App::view('sections/clients') ?>
 <?php echo App::view('sections/projects') ?>
 <?php echo App::view('sections/testimonials') ?>
-<?php echo App::view('sections/footer') ?>
