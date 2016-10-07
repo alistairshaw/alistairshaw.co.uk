@@ -10,7 +10,6 @@ use App\App;
 <html lang="en">
 <?php echo App::view('sections/head', $parameters) ?>
 <body>
-<?php echo App::view('sections/header', $parameters) ?>
 <?php echo $content ?>
 <?php echo App::view('sections/footer', $parameters) ?>
 </body>

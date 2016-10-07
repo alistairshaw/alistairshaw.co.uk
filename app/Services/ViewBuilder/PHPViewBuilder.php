@@ -14,6 +14,7 @@ class PHPViewBuilder implements ViewBuilder {
     {
         if ($layout)
         {
+            $parameters['parameters'] = $parameters;
             $parameters['content'] = $this->get_include_contents("../resources/views/" . $path . '.php', $parameters);
             return new HtmlResponse($this->get_include_contents("../resources/views/" . $layout . '.php', $parameters));
         }

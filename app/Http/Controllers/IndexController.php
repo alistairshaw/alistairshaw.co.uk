@@ -10,7 +10,7 @@ class IndexController extends Controller {
      */
     public function index()
     {
-        return App::view('index', [], 'layouts/standard');
+        return App::view('index', [], 'layouts/home');
     }
 
 }

@@ -1,0 +1,44 @@
+$font-colour: #444 !default;
+$brand-primary: #333 !default;
+$base-spacing: 20px !default;
+
+.main-header {
+    background: white;
+    nav {
+        @extend .clearfix;
+        ul {
+            @extend .clearfix;
+            padding: 0;
+            margin: 0;
+            list-style: none;
+            float: right;
+            li {
+                float: left;
+                a {
+                    display: block;
+                    color: $font-colour;
+                    padding: 25px 20px;
+                    font-weight: 600;
+                    font-size: 0.9em;
+                    text-transform: uppercase;
+                    &:hover, &.active {
+                        color: $brand-primary;
+                        text-decoration: none;
+                    }
+                }
+                &:last-child {
+                    a {
+                        padding-right: -20px;
+                    }
+                }
+                &.active {
+                    color: $brand-primary;
+                }
+            }
+        }
+    }
+    .brand {
+        float: left;
+        margin: 0;
+    }
+}
