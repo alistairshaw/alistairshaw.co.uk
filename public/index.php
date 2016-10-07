@@ -16,6 +16,7 @@ require_once('../app/app.php'); ?>
 <?php App::view('sections/hero') ?>
 <?php App::view('sections/about') ?>
 <?php App::view('sections/resume') ?>
+<?php App::view('sections/clients') ?>
 <?php App::view('sections/footer') ?>
 
 </body>

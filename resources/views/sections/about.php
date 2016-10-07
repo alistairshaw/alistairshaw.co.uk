@@ -27,21 +27,21 @@
                 <h2 class="currently-working-with">Currently Working With</h2>
                 <ul class="tool-icons">
                     <li class="php"><a href="http://www.php.net/" target="_blank"></a></li>
+                    <li class="laravel"><a href="https://laravel.com/" target="_blank"></a></li>
+                    <li class="android"><a href="https://developer.android.com" target="_blank"></a></li>
+                    <li class="javascript"><a href="https://www.javascript.com/" target="_blank"></a></li>
                     <li class="elasticsearch"><a href="https://www.elastic.co/" target="_blank"></a></li>
                     <li class="mongodb"><a href="https://www.mongodb.com/" target="_blank"></a></li>
                     <li class="memcached"><a href="https://memcached.org/" target="_blank"></a></li>
                     <li class="mysql"><a href="https://www.mysql.com/" target="_blank"></a></li>
                     <li class="rabbitmq"><a href="https://www.rabbitmq.com/" target="_blank"></a></li>
-                    <li class="laravel"><a href="https://laravel.com/" target="_blank"></a></li>
-                    <li class="javascript"><a href="https://www.javascript.com/" target="_blank"></a></li>
                     <li class="sass"><a href="http://sass-lang.com/" target="_blank"></a></li>
                     <li class="grunt"><a href="http://gruntjs.com/" target="_blank"></a></li>
+                    <li class="gulp"><a href="http://gulpjs.com/" target="_blank"></a></li>
                     <li class="npm"><a href="https://www.npmjs.com/" target="_blank"></a></li>
                     <li class="deployer"><a href="http://deployer.org/" target="_blank"></a></li>
                     <li class="bamboo"><a href="https://www.atlassian.com/software/bamboo" target="_blank"></a></li>
                     <li class="jira"><a href="https://www.atlassian.com/software/jira" target="_blank"></a></li>
-                    <li class="gulp"><a href="http://gulpjs.com/" target="_blank"></a></li>
-                    <li class="android"><a href="https://developer.android.com" target="_blank"></a></li>
                 </ul>
             </div>
         </div>
