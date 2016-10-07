@@ -26,6 +26,6 @@ class HtmlResponse implements Response {
      */
     public function __toString()
     {
-        return $this->html;
+        return $this->html . "\n";
     }
 }

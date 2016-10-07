@@ -7,9 +7,9 @@
         </p>
         <div class="project-list">
             <?php echo App::view('sections/projects/clicpoint') ?>
-            <?php echo App::view('sections/projects/clicpoint') ?>
-            <?php echo App::view('sections/projects/clicpoint') ?>
-            <?php echo App::view('sections/projects/clicpoint') ?>
+            <?php echo App::view('sections/projects/vendirun') ?>
+            <?php echo App::view('sections/projects/hygge') ?>
+            <?php echo App::view('sections/projects/emedicus') ?>
         </div>
     </div>
 </div>

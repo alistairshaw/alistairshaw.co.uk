@@ -88,7 +88,7 @@ module.exports = function (grunt) {
 				}
 			},
             img: {
-                files: ['resources/img/**/*.*'],
+                files: ['resources/img/**'],
                 tasks: ['copy'],
                 options: {
                     spawn: false

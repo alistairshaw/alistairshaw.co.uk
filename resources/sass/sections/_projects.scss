@@ -27,6 +27,14 @@ $base-spacing: 20px !default;
             text-align: center;
             text-transform: uppercase;
             color: $font-colour;
+            font-weight: 400;
+        }
+        h3 {
+            font-size: 0.8em;
+            text-transform: uppercase;
+            margin: 0;
+            text-align: center;
+            font-weight: 200;
         }
         .image {
             display: flex;
@@ -47,8 +55,9 @@ $base-spacing: 20px !default;
             }
         }
         .tool-icons {
-            background: $brand-secondary;
-            padding: $base-spacing / 3;
+            //background: $brand-secondary;
+            //padding: $base-spacing / 3;
+            margin-top: 5px;
             li {
                 width: 30px;
                 height: 30px;

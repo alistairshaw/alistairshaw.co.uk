@@ -27,7 +27,7 @@
         {
             foreach ($availableTools as $availableTool => $url)
             {
-                if ($tool == $availableTool) echo '<li class="' . $tool . '"><a href="' . $url . '"></a></li>';
+                if ($tool == $availableTool) echo '<li class="' . $tool . '"><a href="' . $url . '"></a></li>' . "\n";
             }
         }
     }
@@ -39,7 +39,7 @@
             $counter++;
             if ($counter > $top) continue;
 
-            echo '<li class="' . $tool . '"><a href="' . $url . '"></a></li>';
+            echo '<li class="' . $tool . '"><a href="' . $url . '"></a></li>' . "\n";
 
         }
     }
