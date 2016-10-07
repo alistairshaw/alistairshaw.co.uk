@@ -1,5 +1,6 @@
 <?php namespace App;
 
+use App\Exceptions\FourOhFourException;
 use App\Http\Responses\HtmlResponse;
 use App\Router\Router;
 use App\Services\ViewBuilder\PHPViewBuilder;
@@ -8,9 +9,16 @@ class App {
 
     public static function init()
     {
-        $router = new Router();
-        $response = $router->load($_SERVER['REQUEST_URI']);
-        $response->display();
+        try
+        {
+            $router = new Router();
+            $response = $router->load($_SERVER['REQUEST_URI']);
+            $response->display();
+        }
+        catch (FourOhFourException $e)
+        {
+            exit('404');
+        }
     }
 
     /**

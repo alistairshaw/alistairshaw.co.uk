@@ -6,18 +6,12 @@ Options +FollowSymLinks
 
 <IfModule mod_rewrite.c>
 
-    # activate URL rewriting
-    RewriteEngine on
-	RewriteBase /
-
-    # do not rewrite links to the assets and public files
-    RewriteCond $1 !^(img|css|js|fonts)
-
-    # do not rewrite for php files in the document root, robots.txt or the maintenance page
-    RewriteCond $1 !^([^\..]+\.php|robots\.txt)
-
-    # but rewrite everything else
-	RewriteRule ^(.*)$ /index.php/$1 [L]
+    RewriteEngine On
+    RewriteBase /
+    RewriteRule ^index\.php$ - [L]
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule . /index.php [L]
 
 </IfModule>
 

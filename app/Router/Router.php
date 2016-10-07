@@ -1,6 +1,7 @@
 <?php namespace App\Router;
 
 use App\Exceptions\ControllerNotFoundException;
+use App\Exceptions\FourOhFourException;
 use App\Exceptions\MethodNotFoundException;
 use App\Http\Controllers\Controller;
 use App\Http\Responses\Response;
@@ -11,14 +12,25 @@ class Router implements RouterInterface {
      * Pass the route and it will load the appropriate controller
      * @param string $route
      * @return Response
+     * @throws FourOhFourException
      */
     public function load($route)
     {
-        $path = explode('/', ltrim($route, '/'));
-        $controller = $this->getController((count($path) > 0) ? $path[0] : '');
-        $method = $this->getMethod($controller, count($path) > 1 ? $path[1] : '');
-
-        return $controller->$method();
+        try
+        {
+            $path = explode('/', ltrim($route, '/'));
+            $controller = $this->getController((count($path) > 0) ? $path[0] : '');
+            $method = $this->getMethod($controller, count($path) > 1 ? $path[1] : '');
+            return $controller->$method();
+        }
+        catch (ControllerNotFoundException $e)
+        {
+            throw new FourOhFourException('404');
+        }
+        catch (MethodNotFoundException $e)
+        {
+            throw new FourOhFourException('404');
+        }
     }
 
     /**

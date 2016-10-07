@@ -1,0 +1,10 @@
+$background1: white !default;
+
+.projects {
+    @extend .stripe;
+    background: $background1;
+}
+
+.project-list {
+
+}

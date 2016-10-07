@@ -5,6 +5,7 @@ $base-spacing: 20px !default;
 }
 
 .brands {
+    @extend .clearfix;
     padding: 0;
     list-style: none;
     li {
