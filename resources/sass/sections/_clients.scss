@@ -2,6 +2,9 @@ $base-spacing: 20px !default;
 
 .clients {
     @extend .stripe;
+    p {
+        text-align: center;
+    }
 }
 
 .brands {

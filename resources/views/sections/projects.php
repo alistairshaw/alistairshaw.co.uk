@@ -3,7 +3,7 @@
     <div class="container">
         <h1>Recent Projects</h1>
         <p>
-            Here are a small selection of some of the projects I've been working on lately.
+            A selection of some of the projects I've been working on lately.
         </p>
         <div class="project-list">
             <?php echo App::view('sections/projects/clicpoint') ?>

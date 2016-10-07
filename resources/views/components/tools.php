@@ -19,6 +19,7 @@
         'deployer' => 'http://deployer.org/',
         'bamboo' => 'https://www.atlassian.com/software/bamboo"',
         'jira' => 'https://www.atlassian.com/software/jira"',
+        'nodejs' => 'https://www.atlassian.com/software/nodejs"',
     ];
 
     if (isset($tools))

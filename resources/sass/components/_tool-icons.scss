@@ -1,0 +1,134 @@
+.tool-icons {
+    @extend .clearfix;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: relative;
+    li {
+        float: left;
+        width: 84px;
+        height: 84px;
+        overflow: hidden;
+        background-color: $background2;
+        background-size: 50% 50% !important;
+        border-radius: 50%;
+        transition: all .5s ease;
+        a {
+            display: block;
+            height: 100%;
+            width: 100%;
+        }
+        &:hover {
+            background-color: $background1;
+            background-size: 65% 65% !important;
+            &:before {
+                opacity: 1;
+            }
+        }
+        &:before {
+            @extend .tech-label;
+        }
+        &.php {
+            @include background-2x('../img/dev-tools/php', 'png', 75px, 75px, center center, no-repeat);
+            &:before {
+                content: "PHP";
+            }
+        }
+        &.elasticsearch {
+            @include background-2x('../img/dev-tools/elasticsearch', 'png', 75px, 75px, center center, no-repeat);
+            &:before {
+                content: "ELASTIC SEARCH";
+            }
+        }
+        &.mongodb {
+            @include background-2x('../img/dev-tools/mongodb', 'png', 75px, 75px, center center, no-repeat);
+            &:before {
+                content: "MONGODB";
+            }
+        }
+        &.memcached {
+            @include background-2x('../img/dev-tools/memcached', 'png', 75px, 75px, center center, no-repeat);
+            &:before {
+                content: "MEMCACHED";
+            }
+        }
+        &.mysql {
+            @include background-2x('../img/dev-tools/mysql', 'png', 75px, 75px, center center, no-repeat);
+            &:before {
+                content: "MYSQL";
+            }
+        }
+        &.rabbitmq {
+            @include background-2x('../img/dev-tools/rabbitmq', 'png', 75px, 75px, center center, no-repeat);
+            &:before {
+                content: "RABBIT MQ";
+            }
+        }
+        &.laravel {
+            @include background-2x('../img/dev-tools/laravel', 'png', 75px, 75px, center center, no-repeat);
+            &:before {
+                content: "LARAVEL";
+            }
+        }
+        &.javascript {
+            @include background-2x('../img/dev-tools/javascript', 'png', 75px, 75px, center center, no-repeat);
+            &:before {
+                content: "JAVASCRIPT";
+            }
+        }
+        &.sass {
+            @include background-2x('../img/dev-tools/sass', 'png', 75px, 75px, center center, no-repeat);
+            &:before {
+                content: "SASS";
+            }
+        }
+        &.grunt {
+            @include background-2x('../img/dev-tools/grunt', 'png', 75px, 75px, center center, no-repeat);
+            &:before {
+                content: "GRUNT";
+            }
+        }
+        &.npm {
+            @include background-2x('../img/dev-tools/npm', 'png', 75px, 75px, center center, no-repeat);
+            &:before {
+                content: "NPM";
+            }
+        }
+        &.deployer {
+            @include background-2x('../img/dev-tools/deployer', 'png', 75px, 75px, center center, no-repeat);
+            &:before {
+                content: "DEPLOYER";
+            }
+        }
+        &.bamboo {
+            @include background-2x('../img/dev-tools/bamboo', 'png', 75px, 75px, center center, no-repeat);
+            &:before {
+                content: "BAMBOO";
+            }
+        }
+        &.jira {
+            @include background-2x('../img/dev-tools/jira', 'png', 75px, 75px, center center, no-repeat);
+            &:before {
+                content: "JIRA";
+            }
+        }
+        &.gulp {
+            @include background-2x('../img/dev-tools/gulp', 'png', 75px, 75px, center center, no-repeat);
+            &:before {
+                content: "GULP";
+            }
+        }
+        &.android {
+            @include background-2x('../img/dev-tools/android', 'png', 75px, 75px, center center, no-repeat);
+            &:before {
+                content: "ANDROID";
+            }
+        }
+        &.nodejs {
+            @include background-2x('../img/dev-tools/nodejs', 'png', 75px, 75px, center center, no-repeat);
+            &:before {
+                content: "NODE JS";
+            }
+        }
+    }
+}

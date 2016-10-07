@@ -1,0 +1,44 @@
+.testimonials {
+    @extend .stripe;
+    @extend .clearfix;
+    text-align: center;
+    article {
+        float: left;
+        width: 250px;
+        margin-right: 10px;
+        &:last-child {
+            margin-right: 0;
+        }
+        .image {
+            border-radius: 50%;
+            border: 3px solid $brand-primary;
+            width: 75px;
+            height: 75px;
+            margin: 0 auto $base-spacing / 2 auto;
+            img {
+                max-width: 100%;
+                border-radius: 50%;
+            }
+        }
+        h2 {
+            font-size: 1em;
+            font-weight: 400;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin: 0;
+        }
+        h3 {
+            margin: 0;
+            font-size: 0.9em;
+            em {
+                display: block;
+                color: $brand-primary;
+            }
+        }
+        p {
+            margin: 0;
+            font-size: 0.7em;
+            padding: 0 $base-spacing / 2;
+        }
+    }
+}

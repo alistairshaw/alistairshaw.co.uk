@@ -65,3 +65,12 @@ ul, ol, p {
 p, li {
     letter-spacing: 1px;
 }
+
+a {
+    color: $brand-primary;
+    text-decoration: none;
+    &:hover {
+        color: $brand-secondary;
+        text-decoration: underline;
+    }
+}
