@@ -1,10 +1,66 @@
 $background1: white !default;
+$font-colour: #444 !default;
+$brand-secondary: #333 !default;
+$base-spacing: 20px !default;
 
 .projects {
     @extend .stripe;
     background: $background1;
+    p {
+        text-align: center;
+    }
 }
 
 .project-list {
-
+    @extend .clearfix;
+    article {
+        float: left;
+        width: 250px;
+        margin-right: 10px;
+        &:last-child {
+            margin-right: 0;
+        }
+        h2 {
+            font-size: 1em;
+            margin: 0;
+            padding: 6px 12px;
+            text-align: center;
+            text-transform: uppercase;
+            color: $font-colour;
+        }
+        .image {
+            display: flex;
+            width: 100%;
+            height: 156px;
+            overflow: hidden;
+            align-items: center;
+            justify-content: center;
+            img {
+                max-width: 250px;
+                transition: max-width .5s ease;
+            }
+            &:hover {
+                img {
+                    max-width: 500px;
+                    margin: auto;
+                }
+            }
+        }
+        .tool-icons {
+            background: $brand-secondary;
+            padding: $base-spacing / 3;
+            li {
+                width: 30px;
+                height: 30px;
+                background-size: 100% 100% !important;
+                margin: 0 2px;
+                &:first-child {
+                    margin-left: 0;
+                }
+                &:hover {
+                    background-size: 200% 200% !important;
+                }
+            }
+        }
+    }
 }
