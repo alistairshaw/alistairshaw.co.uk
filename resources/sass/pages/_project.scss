@@ -1,0 +1,47 @@
+$base-spacing: 20px !default;
+$brand-secondary: #333 !default;
+
+.project {
+    @extend .clearfix;
+    padding-top: $base-spacing;
+    .images {
+        width: 50%;
+        float: left;
+        img {
+            max-width: 100%;
+            margin-bottom: -$base-spacing * 8;
+            box-shadow: 1px 3px 1px #999;
+            border: 1px solid #e2e2e2;
+            transition: all .5s ease;
+            &:hover {
+                margin-bottom: -$base-spacing;
+            }
+            @for $i from 1 through 50 {
+                &:nth-child(#{$i}) {
+                    margin-left: random($base-spacing) + 10 + px;
+                }
+            }
+        }
+    }
+    .description {
+        float: right;
+        width: 50%;
+        padding: 0 $base-spacing $base-spacing $base-spacing * 2;
+        h2:first-child {
+            margin-top: 0;
+        }
+    }
+}
+
+.project-footer {
+    @extend .stripe;
+    margin-bottom: -$base-spacing * 3;
+    background: $brand-secondary;
+    color: white;
+    .project-list {
+        @extend .container;
+        h2, h3 {
+            color: white;
+        }
+    }
+}
