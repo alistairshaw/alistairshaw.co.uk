@@ -13,38 +13,22 @@ $base-spacing: 20px !default;
 
 .project-list {
     @extend .clearfix;
+    text-align: center;
     article {
-        float: left;
-        width: 250px;
-        margin-right: 10px;
-        &:last-child {
-            margin-right: 0;
-        }
-        h2 {
-            font-size: 1em;
-            margin: 0;
-            padding: 6px 12px;
-            text-align: center;
-            text-transform: uppercase;
-            color: $font-colour;
-            font-weight: 400;
-        }
-        h3 {
-            font-size: 0.8em;
-            text-transform: uppercase;
-            margin: 0;
-            text-align: center;
-            font-weight: 200;
-        }
+        @extend .card;
+        display: inline-block;
+        width: 280px;
+        margin: 20px;
+        background: $background1;
         .image {
             display: flex;
             width: 100%;
-            height: 156px;
+            height: 170px;
             overflow: hidden;
             align-items: center;
             justify-content: center;
             img {
-                max-width: 250px;
+                max-width: 100%;
                 transition: max-width .5s ease;
             }
             &:hover {
@@ -54,11 +38,27 @@ $base-spacing: 20px !default;
                 }
             }
         }
+        h2 {
+            font-size: 1em;
+            margin: 12px 0 0 0;
+            text-align: center;
+            color: $font-colour;
+            font-weight: 400;
+        }
+        h3 {
+            font-size: 0.8em;
+            text-transform: uppercase;
+            margin: 0 0 12px 0;
+            text-align: center;
+            font-weight: 400;
+        }
         .tool-icons {
-            //background: $brand-secondary;
-            //padding: $base-spacing / 3;
             margin-top: 5px;
+            text-align: center;
+            padding: 12px 6px;
             li {
+                float: none;
+                display: inline-block;
                 width: 30px;
                 height: 30px;
                 background-size: 100% 100% !important;

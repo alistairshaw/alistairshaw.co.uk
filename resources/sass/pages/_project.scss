@@ -38,6 +38,12 @@ $brand-secondary: #333 !default;
     margin-bottom: -$base-spacing * 3;
     background: $brand-secondary;
     color: white;
+    > h2 {
+        color: white;
+        text-align: center;
+        font-weight: 200;
+        margin-top: 0;
+    }
     .project-list {
         @extend .container;
         h2, h3 {
