@@ -17,9 +17,13 @@
         'gulp' => 'http://gulpjs.com/',
         'npm' => 'https://www.npmjs.com/',
         'deployer' => 'http://deployer.org/',
-        'bamboo' => 'https://www.atlassian.com/software/bamboo"',
-        'jira' => 'https://www.atlassian.com/software/jira"',
-        'nodejs' => 'https://www.atlassian.com/software/nodejs"',
+        'bamboo' => 'https://www.atlassian.com/software/bamboo',
+        'jira' => 'https://www.atlassian.com/software/jira',
+        'nodejs' => 'https://nodejs.org',
+        'codeigniter' => 'https://www.codeigniter.com',
+        'composer' => 'https://www.getcomposer.org',
+        'jquery' => 'https://www.jquery.org',
+        'amazons3' => 'https://aws.amazon.com'
     ];
 
     if (isset($tools))

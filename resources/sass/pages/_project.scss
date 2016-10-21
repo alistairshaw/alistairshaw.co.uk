@@ -1,34 +1,50 @@
 $base-spacing: 20px !default;
 $brand-secondary: #333 !default;
+$font-colour: #444 !default;
+$background1: white !default;
 
 .project {
-    @extend .clearfix;
-    padding-top: $base-spacing;
-    .images {
-        width: 50%;
-        float: left;
-        img {
-            max-width: 100%;
-            margin-bottom: -$base-spacing * 8;
-            box-shadow: 1px 3px 1px #999;
-            border: 1px solid #e2e2e2;
-            transition: all .5s ease;
-            &:hover {
-                margin-bottom: -$base-spacing;
-            }
-            @for $i from 1 through 50 {
-                &:nth-child(#{$i}) {
-                    margin-left: random($base-spacing) + 10 + px;
-                }
+    .description {
+        @extend .stripe;
+        text-align: center;
+        p {
+            width: 60%;
+            margin: $base-spacing / 2 auto;
+        }
+        .image {
+            width: 100%;
+            padding: 6px;
+            @extend .card;
+            background: white;
+            margin: $base-spacing * 2 0;
+            img {
+                max-width: 100%;
+                margin: 0;
+                display: block;
             }
         }
     }
-    .description {
-        float: right;
-        width: 50%;
-        padding: 0 $base-spacing $base-spacing $base-spacing * 2;
-        h2:first-child {
-            margin-top: 0;
+    .tech-stack {
+        @extend .stripe;
+        background: $background1;
+        text-align: center;
+        p {
+            @extend .container;
+        }
+        .tool-icons {
+            margin-bottom: $base-spacing * 2;
+            li {
+                float: none;
+                display: inline-block;
+                overflow: visible;
+                position: relative;
+                &:before {
+                    top: 100px;
+                    left: -56px;
+                    width: 200px;
+                    border-radius: 16px;
+                }
+            }
         }
     }
 }

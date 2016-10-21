@@ -130,5 +130,29 @@
                 content: "NODE JS";
             }
         }
+        &.codeigniter {
+            @include background-2x('../img/dev-tools/codeigniter', 'png', 75px, 75px, center center, no-repeat);
+            &:before {
+                content: "CODE IGNITER";
+            }
+        }
+        &.composer {
+            @include background-2x('../img/dev-tools/composer', 'png', 75px, 75px, center center, no-repeat);
+            &:before {
+                content: "COMPOSER";
+            }
+        }
+        &.jquery {
+            @include background-2x('../img/dev-tools/jquery', 'png', 75px, 75px, center center, no-repeat);
+            &:before {
+                content: "JQUERY";
+            }
+        }
+        &.amazons3 {
+            @include background-2x('../img/dev-tools/amazons3', 'png', 75px, 75px, center center, no-repeat);
+            &:before {
+                content: "AMAZON S3";
+            }
+        }
     }
 }

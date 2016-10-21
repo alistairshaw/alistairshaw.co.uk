@@ -18,4 +18,18 @@ class ProjectsController extends Controller {
         return App::view('projects/vendirun', $data, 'layouts/standard');
     }
 
+    public function hygge()
+    {
+        $data['navSelected'] = 'projects';
+
+        return App::view('projects/hygge', $data, 'layouts/standard');
+    }
+
+    public function emedicus()
+    {
+        $data['navSelected'] = 'projects';
+
+        return App::view('projects/emedicus', $data, 'layouts/standard');
+    }
+
 }

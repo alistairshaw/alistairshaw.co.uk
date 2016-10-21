@@ -17,7 +17,7 @@ h1 {
     font-weight: 800;
     font-size: 3em;
     color: darken($font-colour, 10%);
-    margin: 0 0 ($base-spacing);
+    margin: $base-spacing 0 $base-spacing 0;
     letter-spacing: 3px;
     text-transform: uppercase;
     &:after {
@@ -35,31 +35,31 @@ h1 {
 h2 {
     font-weight: 200;
     font-size: 2em;
-    margin: ($base-spacing * 2.2) 0 $base-spacing;
+    margin: ($base-spacing * 1.2) 0 $base-spacing / 2;
     color: $brand-secondary;
 }
 
 h3 {
     font-weight: 600;
     font-size: 1.4em;
-    margin: ($base-spacing * 2) 0 $base-spacing;
+    margin: ($base-spacing) 0 $base-spacing / 2;
     color: $font-colour;
 }
 
 h4 {
     font-size: 1.4em;
     font-weight: 400;
-    margin: ($base-spacing * 2) 0 $base-spacing;
+    margin: ($base-spacing) 0 $base-spacing / 2;
 }
 
 h5 {
     font-size: 1.2em;
     font-weight: 600;
-    margin: ($base-spacing * 2) 0 $base-spacing;
+    margin: ($base-spacing) 0 $base-spacing / 2;
 }
 
 ul, ol, p {
-    margin: ($base-spacing * 0.8) 0 $base-spacing;
+    margin: $base-spacing / 2 0;
 }
 
 p, li {
