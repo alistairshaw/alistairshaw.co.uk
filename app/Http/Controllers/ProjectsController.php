@@ -4,6 +4,13 @@ use App\App;
 
 class ProjectsController extends Controller {
 
+    public function index()
+    {
+        $data['navSelected'] = 'projects';
+
+        return App::view('projects/index', $data, 'layouts/standard');
+    }
+
     public function clicpoint()
     {
         $data['navSelected'] = 'projects';

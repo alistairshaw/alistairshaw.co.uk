@@ -30,4 +30,7 @@ $container-width: 1190px !default;
     &.two-thirds {
         width: 66.66%
     }
+    &.one-quarter {
+        width: 25%;
+    }
 }

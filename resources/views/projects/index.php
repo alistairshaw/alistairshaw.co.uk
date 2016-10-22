@@ -1,0 +1,1 @@
+<?php echo App\App::view('projects/footer') ?>

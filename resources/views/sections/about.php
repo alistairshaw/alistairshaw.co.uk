@@ -32,11 +32,17 @@
         An Incomplete Technology List
         -----------------------------
 
-        Databases / Stores / Queues:
-            Elasticsearch
-            MongoDB
-            Memcached
+        Persistence:
             MySQL
+            SQLite
+            SQL Server
+            MongoDB
+            Elasticsearch
+            Kibana
+            Memcached
+
+        Queues:
+            Redis
             RabbitMQ
             BeanstalkD
             Amazon SQS
@@ -71,12 +77,16 @@
             Composer
             NPM
             Bower
+            Gradle
 
-        Other Software:
+        DevOps & Deployment:
+            Git
+            Deployer
+            Ubuntu
+            CentOS
             Jira
             Bitbucket
             Bamboo
-            Deployer
         -->
     </div>
 </div>

@@ -1,5 +1,5 @@
 <div class="project-footer">
-    <h2>More Projects</h2>
+    <h2>Recent Projects</h2>
     <div class="project-list">
         <?php if (!isset($exclude) || $exclude !== 'clicpoint') echo App\App::view('sections/projects/clicpoint') ?>
         <?php if (!isset($exclude) || $exclude !== 'vendirun') echo App\App::view('sections/projects/vendirun') ?>
