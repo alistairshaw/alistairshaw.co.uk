@@ -154,5 +154,185 @@
                 content: "AMAZON S3";
             }
         }
+        &.java {
+            @include background-2x('../img/dev-tools/java', 'png', 75px, 75px, center center, no-repeat);
+            &:before {
+                content: "JAVA";
+            }
+        }
+        &.html5 {
+            @include background-2x('../img/dev-tools/html5', 'png', 75px, 75px, center center, no-repeat);
+            &:before {
+                content: "HTML 5";
+            }
+        }
+        &.css3 {
+            @include background-2x('../img/dev-tools/css3', 'png', 75px, 75px, center center, no-repeat);
+            &:before {
+                content: "CSS3";
+            }
+        }
+        &.gradle {
+            @include background-2x('../img/dev-tools/gradle', 'png', 75px, 75px, center center, no-repeat);
+            &:before {
+                content: "GRADLE";
+            }
+        }
+        &.sqlite {
+            @include background-2x('../img/dev-tools/sqlite', 'png', 75px, 75px, center center, no-repeat);
+            &:before {
+                content: "SQLITE";
+            }
+        }
+        &.sqlserver {
+            @include background-2x('../img/dev-tools/sqlserver', 'png', 75px, 75px, center center, no-repeat);
+            &:before {
+                content: "SQL SERVER";
+            }
+        }
+        &.sql {
+            @include background-2x('../img/dev-tools/sql', 'png', 75px, 75px, center center, no-repeat);
+            &:before {
+                content: "SQL";
+            }
+        }
+        &.kibana {
+            @include background-2x('../img/dev-tools/kibana', 'png', 75px, 75px, center center, no-repeat);
+            &:before {
+                content: "KIBANA";
+            }
+        }
+        &.beanstalkd {
+            @include background-2x('../img/dev-tools/beanstalkd', 'png', 75px, 75px, center center, no-repeat);
+            &:before {
+                content: "BEANSTALKD";
+            }
+        }
+        &.redis {
+            @include background-2x('../img/dev-tools/redis', 'png', 75px, 75px, center center, no-repeat);
+            &:before {
+                content: "REDIS";
+            }
+        }
+        &.amazonsqs {
+            @include background-2x('../img/dev-tools/amazonsqs', 'png', 75px, 75px, center center, no-repeat);
+            &:before {
+                content: "AMAZON SQS";
+            }
+        }
+        &.git {
+            @include background-2x('../img/dev-tools/git', 'png', 75px, 75px, center center, no-repeat);
+            &:before {
+                content: "GIT";
+            }
+        }
+        &.bitbucket {
+            @include background-2x('../img/dev-tools/bitbucket', 'png', 75px, 75px, center center, no-repeat);
+            &:before {
+                content: "BITBUCKET";
+            }
+        }
+        &.github {
+            @include background-2x('../img/dev-tools/github', 'png', 75px, 75px, center center, no-repeat);
+            &:before {
+                content: "GITHUB";
+            }
+        }
+        &.gitlab {
+            @include background-2x('../img/dev-tools/gitlab', 'png', 75px, 75px, center center, no-repeat);
+            &:before {
+                content: "GITLAB";
+            }
+        }
+        &.ubuntu {
+            @include background-2x('../img/dev-tools/ubuntu', 'png', 75px, 75px, center center, no-repeat);
+            &:before {
+                content: "UBUNTU";
+            }
+        }
+        &.centos {
+            @include background-2x('../img/dev-tools/centos', 'png', 75px, 75px, center center, no-repeat);
+            &:before {
+                content: "CENTOS";
+            }
+        }
+        &.apache {
+            @include background-2x('../img/dev-tools/apache', 'png', 75px, 75px, center center, no-repeat);
+            &:before {
+                content: "APACHE";
+            }
+        }
+        &.nginx {
+            @include background-2x('../img/dev-tools/nginx', 'png', 75px, 75px, center center, no-repeat);
+            &:before {
+                content: "NGINX";
+            }
+        }
+        &.letsencrypt {
+            @include background-2x('../img/dev-tools/letsencrypt', 'png', 75px, 75px, center center, no-repeat);
+            &:before {
+                content: "LETSENCRYPT";
+            }
+        }
+        &.slim {
+            @include background-2x('../img/dev-tools/slim', 'png', 75px, 75px, center center, no-repeat);
+            &:before {
+                content: "SLIM";
+            }
+        }
+        &.wordpress {
+            @include background-2x('../img/dev-tools/wordpress', 'png', 75px, 75px, center center, no-repeat);
+            &:before {
+                content: "WORDPRESS";
+            }
+        }
+        &.express {
+            @include background-2x('../img/dev-tools/express', 'png', 75px, 75px, center center, no-repeat);
+            &:before {
+                content: "EXPRESS";
+            }
+        }
+        &.less {
+            @include background-2x('../img/dev-tools/less', 'png', 75px, 75px, center center, no-repeat);
+            &:before {
+                content: "LESS";
+            }
+        }
+        &.bower {
+            @include background-2x('../img/dev-tools/bower', 'png', 75px, 75px, center center, no-repeat);
+            &:before {
+                content: "BOWER";
+            }
+        }
+        &.browserify {
+            @include background-2x('../img/dev-tools/browserify', 'png', 75px, 75px, center center, no-repeat);
+            &:before {
+                content: "BROWSERIFY";
+            }
+        }
+        &.webpack {
+            @include background-2x('../img/dev-tools/webpack', 'png', 75px, 75px, center center, no-repeat);
+            &:before {
+                content: "WEBPACK";
+            }
+        }
+        &.newrelic {
+            @include background-2x('../img/dev-tools/newrelic', 'png', 75px, 75px, center center, no-repeat);
+            &:before {
+                content: "NEW RELIC";
+            }
+        }
+        &.subversion {
+            @include background-2x('../img/dev-tools/subversion', 'png', 75px, 75px, center center, no-repeat);
+            &:before {
+                content: "SUBVERSION";
+            }
+        }
+        &.lumen {
+            @include background-2x('../img/dev-tools/lumen', 'png', 75px, 75px, center center, no-repeat);
+            &:before {
+                content: "LUMEN";
+            }
+        }
     }
 }

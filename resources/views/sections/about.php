@@ -26,67 +26,8 @@
             <div class="col two-thirds">
                 <h2 class="currently-working-with">Currently Enjoy Working With</h2>
                 <?php echo \App\App::view('components/tools', ['top' => 16]) ?>
+                <a href="/tech">See More</a>
             </div>
         </div>
-        <!--
-        An Incomplete Technology List
-        -----------------------------
-
-        Persistence:
-            MySQL
-            SQLite
-            SQL Server
-            MongoDB
-            Elasticsearch
-            Kibana
-            Memcached
-
-        Queues:
-            Redis
-            RabbitMQ
-            BeanstalkD
-            Amazon SQS
-
-        Frameworks:
-            Laravel
-            Slim
-            Code Igniter
-            CakePHP
-            Wordpress
-            Android
-            Express
-
-        Languages:
-            PHP
-            Java
-            Javascript
-            NodeJS
-            CSS3
-            HTML5
-
-        Tooling:
-            SASS
-            LESS
-            Grunt
-            Gulp
-            Bower
-            Browserify
-            Webpack
-
-        Package Management:
-            Composer
-            NPM
-            Bower
-            Gradle
-
-        DevOps & Deployment:
-            Git
-            Deployer
-            Ubuntu
-            CentOS
-            Jira
-            Bitbucket
-            Bamboo
-        -->
     </div>
 </div>

@@ -10,7 +10,17 @@
             <?php
             echo \App\App::view('components/tools', [
                 'tools' => [
-                    'php', 'javascript', 'nodejs', 'java', 'html5', 'css3'
+                    'php', 'javascript', 'nodejs', 'java', 'sql', 'html5', 'css3'
+                ]
+            ])
+            ?>
+        </section>
+        <section>
+            <h2>Server Administration</h2>
+            <?php
+            echo \App\App::view('components/tools', [
+                'tools' => [
+                    'ubuntu', 'centos', 'apache', 'nginx', 'letsencrypt'
                 ]
             ])
             ?>
@@ -28,16 +38,6 @@
     </div>
     <div class="col one-third">
         <section>
-            <h2>Persistence</h2>
-            <?php
-            echo \App\App::view('components/tools', [
-                'tools' => [
-                    'mysql', 'sqlite', 'sqlserver', 'mongodb', 'elasticsearch'
-                ]
-            ])
-            ?>
-        </section>
-        <section>
             <h2>Queues & Caching</h2>
             <?php
             echo \App\App::view('components/tools', [
@@ -48,11 +48,21 @@
             ?>
         </section>
         <section>
-            <h2>DevOps & Deployment</h2>
+            <h2>Source Control</h2>
             <?php
             echo \App\App::view('components/tools', [
                 'tools' => [
-                    'jira', 'bitbucket', 'git', 'bamboo', 'deployer', 'ubuntu', 'centos'
+                    'git', 'subversion', 'bitbucket', 'github', 'gitlab'
+                ]
+            ])
+            ?>
+        </section>
+        <section>
+            <h2>Frameworks</h2>
+            <?php
+            echo \App\App::view('components/tools', [
+                'tools' => [
+                    'laravel', 'lumen', 'codeigniter', 'wordpress', 'android', 'express', 'slim'
                 ]
             ])
             ?>
@@ -60,11 +70,11 @@
     </div>
     <div class="col one-third">
         <section>
-            <h2>Frameworks</h2>
+            <h2>Persistence</h2>
             <?php
             echo \App\App::view('components/tools', [
                 'tools' => [
-                    'laravel', 'slim', 'codeigniter', 'cakephp', 'wordpress', 'android', 'express'
+                    'mysql', 'sqlite', 'sqlserver', 'mongodb', 'elasticsearch', 'kibana'
                 ]
             ])
             ?>
@@ -79,5 +89,17 @@
             ])
             ?>
         </section>
+        <section>
+            <h2>DevOps & Deployment</h2>
+            <?php
+            echo \App\App::view('components/tools', [
+                'tools' => [
+                    'newrelic', 'bamboo', 'deployer', 'jira'
+                ]
+            ])
+            ?>
+        </section>
     </div>
 </div>
+
+<?php echo App\App::view('projects/footer', ['max' => 3]) ?>

@@ -1,5 +1,5 @@
 <ul class="tool-icons">
-<?php
+    <?php
 
     // todo: move this into a helper (View Composer?) or something
     $availableTools = [
@@ -23,14 +23,44 @@
         'codeigniter' => 'https://www.codeigniter.com',
         'composer' => 'https://www.getcomposer.org',
         'jquery' => 'https://www.jquery.org',
-        'amazons3' => 'https://aws.amazon.com'
+        'amazons3' => 'https://aws.amazon.com',
+        'java' => '',
+        'html5' => '',
+        'css3' => '',
+        'sql' => '',
+        'gradle' => '',
+        'lumen' => '',
+        'sqlite' => '',
+        'sqlserver' => '',
+        'kibana' => '',
+        'beanstalkd' => '',
+        'redis' => '',
+        'amazonsqs' => '',
+        'git' => '',
+        'bitbucket' => '',
+        'github' => '',
+        'gitlab' => '',
+        'ubuntu' => '',
+        'centos' => '',
+        'apache' => '',
+        'nginx' => '',
+        'letsencrypt' => '',
+        'wordpress' => '',
+        'express' => '',
+        'less' => '',
+        'bower' => '',
+        'browserify' => '',
+        'webpack' => '',
+        'newrelic' => '',
+        'subversion' => '',
+        'slim' => '',
     ];
 
     if (isset($tools))
     {
-        foreach ($tools as $tool)
+        foreach ($availableTools as $availableTool => $url)
         {
-            foreach ($availableTools as $availableTool => $url)
+            foreach ($tools as $tool)
             {
                 if ($tool == $availableTool) echo '<li class="' . $tool . '"><a href="' . $url . '"></a></li>' . "\n";
             }
@@ -53,5 +83,5 @@
         echo '<code>No Tools Selected</code>';
     }
 
-?>
+    ?>
 </ul>

@@ -1,9 +1,25 @@
+<?php
+    // todo: move this into a helper (View Composer?) or something
+    $availableProjects = [
+        'clicpoint' =>  'sections/projects/clicpoint',
+        'vendirun' =>  'sections/projects/vendirun',
+        'hygge' =>  'sections/projects/hygge',
+        'emedicus' =>  'sections/projects/emedicus',
+    ];
+?>
 <div class="project-footer">
     <h2>Recent Projects</h2>
     <div class="project-list">
-        <?php if (!isset($exclude) || $exclude !== 'clicpoint') echo App\App::view('sections/projects/clicpoint') ?>
-        <?php if (!isset($exclude) || $exclude !== 'vendirun') echo App\App::view('sections/projects/vendirun') ?>
-        <?php if (!isset($exclude) || $exclude !== 'hygge') echo App\App::view('sections/projects/hygge') ?>
-        <?php if (!isset($exclude) || $exclude !== 'emedicus') echo App\App::view('sections/projects/emedicus') ?>
+        <?php
+
+            $count = 0;
+            foreach ($availableProjects as $project => $view)
+            {
+                if (isset($max) && $count >= $max) continue;
+                if (isset($exclude) && $exclude == $project) continue;
+                echo App\App::view($view);
+                $count++;
+            }
+        ?>
     </div>
 </div>
