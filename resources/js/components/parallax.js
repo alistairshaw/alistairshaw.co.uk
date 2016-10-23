@@ -1,11 +1,7 @@
-export default function addParallaxEffect(element) {
+export default function addParallaxEffect(element, current) {
 
     let lowerBound = 300;
     let bottom = window.innerHeight;
-
-    // get current scroll position
-    let doc = document.documentElement;
-    let current = (window.pageYOffset || doc.scrollTop) - (doc.clientTop || 0);
 
     // calculate ratio and new image top
     let ratio = bottom / lowerBound;

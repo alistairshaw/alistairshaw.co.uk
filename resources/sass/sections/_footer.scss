@@ -7,4 +7,25 @@ footer {
     margin-top: $base-spacing * 3;
     padding: $base-spacing 0;
     text-align: center;
+    position: relative;
+
+    .scroll-to-top {
+        display: none;
+        position: fixed;
+        right: $base-spacing;
+        bottom: $base-spacing;
+        background: rgba(#ffffff, 0.8);
+        color: $font-colour;
+        width: 40px;
+        line-height: 40px;
+        text-align: center;
+        border-radius: 50%;
+        a {
+            @extend .fa;
+            @extend .fa-chevron-up;
+            &:hover {
+                text-decoration: none;
+            }
+        }
+    }
 }

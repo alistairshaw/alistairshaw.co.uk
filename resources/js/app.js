@@ -1,5 +1,6 @@
 import addParallaxEffect from "./components/parallax";
-import homePhoto from "./components/home-photo";
+import { homePhoto, homePhotoSetup } from "./components/home-photo";
+import scrollToTop from "./components/scroll-to-top";
 
 export default function app() {
     return {
@@ -10,22 +11,23 @@ export default function app() {
         },
 
         scrollEvents: function () {
-            let photoElement = document.getElementById('homePhoto');
-            let photoHeight = photoElement.offsetWidth - (photoElement.style.borderWidth * 2);
-            photoElement.style.marginTop = (photoHeight / 2) + 'px';
+            let photoElement = homePhotoSetup();
 
-            window.onscroll = function (e) {
-
-                let didScroll = true;
-
+            window.onscroll = function () {
                 // don't let it scroll too fast
+                let didScroll = true;
                 setInterval(function () {
                     if (didScroll) didScroll = false;
                 }, 100);
 
                 if (didScroll) {
-                    addParallaxEffect(document.getElementById('homeHero'));
-                    homePhoto(photoElement);
+                    // get current scroll position
+                    let doc = document.documentElement;
+                    let current = (window.pageYOffset || doc.scrollTop) - (doc.clientTop || 0);
+
+                    addParallaxEffect(document.getElementById('homeHero'), current);
+                    homePhoto(photoElement, current);
+                    scrollToTop(current);
                 }
             };
         }
