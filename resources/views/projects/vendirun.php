@@ -61,7 +61,7 @@
     <div class="tech-stack">
         <div class="container">
             <h2>The Technology Stack</h2>
-            <?php echo \App\App::view('components/tools', ['tools' => ['php', 'javascript', 'laravel', 'codeigniter', 'rabbitmq', 'elasticsearch', 'jquery', 'mysql', 'sass', 'grunt', 'npm', 'composer']]) ?>
+            <?php echo \App\App::view('components/tools', ['tools' => ['php', 'javascript', 'laravel', 'codeigniter', 'rabbitmq', 'elasticsearch', 'kibana', 'jquery', 'mysql', 'sass', 'grunt', 'npm', 'composer']]) ?>
             <p>
                 The main Vendirun application is build on a heavily modified version of the Code Igniter framework. It
                 relies heavily on RabbitMQ for asynchronous processing of complex tasks. It uses the

@@ -28,9 +28,6 @@ $background1: white !default;
         @extend .stripe;
         background: $background1;
         text-align: center;
-        p {
-            @extend .container;
-        }
         .tool-icons {
             margin-bottom: $base-spacing * 2;
             li {
@@ -63,7 +60,7 @@ $background1: white !default;
     .project-list {
         @extend .container;
         h2, h3 {
-            color: white;
+            color: $font-colour;
         }
     }
 }

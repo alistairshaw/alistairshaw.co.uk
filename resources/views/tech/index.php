@@ -1,7 +1,9 @@
 <div class="technology">
     <h1>Technology</h1>
     <p>
-        This is a non-exhaustive list of some of the technologies I currently enjoy using.
+        I made a list off the top of my head of all the various technologies and tools I use on a weekly basis,
+        and it turns out wow, there's a lot of them. I'm lucky at the moment as I have the opportunity to work
+        on several projects with varied technology stacks.
     </p>
 
     <div class="col one-third">
@@ -62,7 +64,7 @@
             <?php
             echo \App\App::view('components/tools', [
                 'tools' => [
-                    'laravel', 'lumen', 'codeigniter', 'wordpress', 'android', 'express', 'slim'
+                    'laravel', 'react', 'angular', 'lumen', 'codeigniter', 'wordpress', 'android', 'express', 'slim'
                 ]
             ])
             ?>
@@ -84,7 +86,7 @@
             <?php
             echo \App\App::view('components/tools', [
                 'tools' => [
-                    'sass', 'less', 'grunt', 'gulp', 'bower', 'browserify', 'webpack'
+                    'phpunit', 'sass', 'less', 'grunt', 'gulp', 'bower', 'browserify', 'webpack'
                 ]
             ])
             ?>

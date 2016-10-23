@@ -6,12 +6,12 @@
     position: relative;
     li {
         float: left;
-        width: 84px;
-        height: 84px;
+        width: 75px;
+        height: 75px;
         overflow: hidden;
         background-color: $background2;
-        background-size: 50% 50% !important;
         border-radius: 50%;
+        background-size: 50px 50px !important;
         transition: all .5s ease;
         a {
             display: block;
@@ -20,7 +20,7 @@
         }
         &:hover {
             background-color: $background1;
-            background-size: 65% 65% !important;
+            background-size: 75px 75px !important;
             &:before {
                 opacity: 1;
             }
@@ -332,6 +332,24 @@
             @include background-2x('../img/dev-tools/lumen', 'png', 75px, 75px, center center, no-repeat);
             &:before {
                 content: "LUMEN";
+            }
+        }
+        &.phpunit {
+            @include background-2x('../img/dev-tools/phpunit', 'png', 75px, 75px, center center, no-repeat);
+            &:before {
+                content: "PHPUNIT";
+            }
+        }
+        &.angular {
+            @include background-2x('../img/dev-tools/angular', 'png', 75px, 75px, center center, no-repeat);
+            &:before {
+                content: "ANGULAR";
+            }
+        }
+        &.react {
+            @include background-2x('../img/dev-tools/react', 'png', 75px, 75px, center center, no-repeat);
+            &:before {
+                content: "REACT";
             }
         }
     }

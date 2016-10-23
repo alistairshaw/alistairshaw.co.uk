@@ -30,6 +30,17 @@ $background2: #f0f0f0 !default;
             font-weight: 600;
         }
     }
+    .get-in-touch {
+        @extend .col;
+        @extend .one-third;
+    }
+    .currently-working-with {
+        @extend .col;
+        @extend .two-thirds;
+        p {
+            text-align: center;
+        }
+    }
 }
 
 .tech-label {

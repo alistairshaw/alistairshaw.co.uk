@@ -38,7 +38,12 @@ $base-spacing: 20px !default;
         }
     }
     .brand {
+        @include background-2x('../img/logo', 'png', 170px, 39px, center center, no-repeat);
+        display: block;
+        width: 170px;
+        height: 39px;
         float: left;
-        margin: 0;
+        opacity: 0.5;
+        margin-top: 18px;
     }
 }

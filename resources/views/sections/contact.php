@@ -1,6 +1,6 @@
-<div class="about">
+<div class="contact">
     <div class="container">
-        <h1>About Me</h1>
+        <h1>Contact Me</h1>
         <p>
             Hi, I'm Alistair and I have nearly 20 years of commercial experience in software development. I specialise
             in the design and development of software systems, including CRM, CMS, Email, Video and Process
