@@ -30,18 +30,6 @@ $background1: white !default;
         text-align: center;
         .tool-icons {
             margin-bottom: $base-spacing * 2;
-            li {
-                float: none;
-                display: inline-block;
-                overflow: visible;
-                position: relative;
-                &:before {
-                    top: 100px;
-                    left: -56px;
-                    width: 200px;
-                    border-radius: 16px;
-                }
-            }
         }
     }
 }

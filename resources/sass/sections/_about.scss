@@ -37,23 +37,12 @@ $background2: #f0f0f0 !default;
     .currently-working-with {
         @extend .col;
         @extend .two-thirds;
-        p {
-            text-align: center;
+        h2 {
+            small {
+                text-transform: none;
+                font-size: 0.8em;
+
+            }
         }
     }
-}
-
-.tech-label {
-    position: absolute;
-    display: block;
-    z-index: 2;
-    background: $font-colour;
-    color: white;
-    padding: 6px 12px;
-    top: -42px;
-    left: 0;
-    width: 100%;
-    opacity: 0;
-    transition: opacity .5s ease;
-    text-align: center;
 }

@@ -1,3 +1,19 @@
+.tech-label {
+    position: absolute;
+    display: block;
+    z-index: 2;
+    background: $font-colour;
+    color: white;
+    padding: 6px 12px;
+    top: 63px;
+    left: -56px;
+    width: 200px;
+    border-radius: 16px;
+    opacity: 0;
+    transition: opacity .5s ease;
+    text-align: center;
+}
+
 .tool-icons {
     @extend .clearfix;
     margin: 0;
@@ -5,10 +21,10 @@
     list-style: none;
     position: relative;
     li {
-        float: left;
+        position: relative;
+        display: inline-block;
         width: 75px;
         height: 75px;
-        overflow: hidden;
         background-color: $background2;
         border-radius: 50%;
         background-size: 50px 50px !important;
