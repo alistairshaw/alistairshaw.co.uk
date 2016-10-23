@@ -17,9 +17,7 @@ $font-colour: #444 !default;
         }
         .tool-icons {
             li {
-                float: none;
-                overflow: visible;
-                position: relative;
+                display: block;
                 background-color: white;
                 &:before {
                     display: block;
