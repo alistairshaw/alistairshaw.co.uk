@@ -24,7 +24,7 @@
                 <p><label><i class="fa fa-location-arrow"></i></label><span>Nottingham, United Kingdom</span></p>
             </div>
             <div class="currently-working-with">
-                <h2>Currently Enjoy Working With <small><a href="/tech">See More</a></small></h2>
+                <h2>Working With <small><a href="/tech">See More</a></small></h2>
                 <?php echo \App\App::view('components/tools', ['top' => 16]) ?>
             </div>
         </div>

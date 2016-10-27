@@ -1,14 +1,15 @@
+$base-spacing: 20px !default;
+$brand-primary: #444 !default;
+
 .testimonials {
     @extend .stripe;
     @extend .clearfix;
     text-align: center;
     article {
-        float: left;
-        width: 250px;
-        margin-right: 10px;
-        &:last-child {
-            margin-right: 0;
-        }
+        display: inline-block;
+        vertical-align: top;
+        width: 220px;
+        margin: 10px;
         .image {
             border-radius: 50%;
             border: 3px solid $brand-primary;
@@ -36,6 +37,7 @@
             }
         }
         p {
+            min-height: 180px;
             margin: 0;
             font-size: 0.7em;
             padding: 0 $base-spacing / 2;

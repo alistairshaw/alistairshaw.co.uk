@@ -1,6 +1,8 @@
 $font-colour: #333 !default;
 $brand-primary: #333 !default;
 $face-size: 150px !default;
+$breakpoint-md: 768px !default;
+$breakpoint-sm: 460px !default;
 
 .hero {
     @include background-2x('../img/hero', 'jpg', 1920px, 1080px, center center, no-repeat);
@@ -54,12 +56,12 @@ $face-size: 150px !default;
             }
         }
     }
-    @media (max-width: 768px) {
+    @media (max-width: $breakpoint-md) {
         h1 {
             font-size: 2em;
         }
     }
-    @media (max-width: 480px) {
+    @media (max-width: $breakpoint-sm) {
         h1 {
             font-size: 1.6em;
             font-weight: 400;

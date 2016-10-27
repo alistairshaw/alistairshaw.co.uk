@@ -2,6 +2,7 @@ $base-spacing: 20px !default;
 $font-colour: #333 !default;
 $background1: white !default;
 $background2: #f0f0f0 !default;
+$breakpoint-md: 768px !default;
 
 .about {
     @extend .stripe;
@@ -42,6 +43,9 @@ $background2: #f0f0f0 !default;
                 text-transform: none;
                 font-size: 0.8em;
 
+            }
+            @media(max-width: $breakpoint-md) {
+                margin-top: $base-spacing;
             }
         }
     }

@@ -2,6 +2,7 @@ $background1: white !default;
 $base-spacing: 20px !default;
 $face-size: 150px !default;
 $face-size-sm: $face-size / 2 !default;
+$breakpoint-md: 768px !default;
 
 .photo {
     @include background-2x('../img/face', 'jpg', $face-size, $face-size, center center, no-repeat);
@@ -11,9 +12,12 @@ $face-size-sm: $face-size / 2 !default;
     height: $face-size;
     margin: -($face-size / 2) auto $base-spacing auto;
     z-index: 2;
-    @media (max-width: 768px) {
+    @media (max-width: $breakpoint-md) {
         width: $face-size-sm;
         height: $face-size-sm;
         @include background-2x('../img/face', 'jpg', $face-size-sm, $face-size-sm, center center, no-repeat);
+    }
+    @media (max-height: 550px) {
+        display: none;
     }
 }
