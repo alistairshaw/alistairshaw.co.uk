@@ -368,5 +368,11 @@
                 content: "REACT";
             }
         }
+        &.vagrant {
+            @include background-2x('../img/dev-tools/vagrant', 'png', 75px, 75px, center center, no-repeat);
+            &:before {
+                content: "VAGRANT";
+            }
+        }
     }
 }

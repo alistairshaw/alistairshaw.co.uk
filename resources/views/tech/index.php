@@ -28,11 +28,11 @@
             ?>
         </section>
         <section>
-            <h2>Package Management</h2>
+            <h2>DevOps & Deployment</h2>
             <?php
             echo \App\App::view('components/tools', [
                 'tools' => [
-                    'composer', 'npm', 'bower', 'gradle'
+                    'newrelic', 'vagrant', 'bamboo', 'deployer', 'jira'
                 ]
             ])
             ?>
@@ -92,11 +92,11 @@
             ?>
         </section>
         <section>
-            <h2>DevOps & Deployment</h2>
+            <h2>Package Management</h2>
             <?php
             echo \App\App::view('components/tools', [
                 'tools' => [
-                    'newrelic', 'bamboo', 'deployer', 'jira'
+                    'composer', 'npm', 'bower', 'gradle'
                 ]
             ])
             ?>

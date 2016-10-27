@@ -1,0 +1,16 @@
+$brand-primary: #333 !default;
+
+.buzzwords {
+    @extend .stripe;
+    background: $brand-secondary;
+    color: lighten($brand-secondary, 50%);
+    h1 {
+        color: white;
+        &:after {
+            border-color: lighten($brand-secondary, 50%);
+        }
+    }
+    h2 {
+        color: white;
+    }
+}
