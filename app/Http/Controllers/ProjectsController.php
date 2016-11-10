@@ -46,4 +46,11 @@ class ProjectsController extends Controller {
         return App::view('projects/vkp', $data, 'layouts/standard');
     }
 
+    public function boomslang()
+    {
+        $data['navSelected'] = 'projects';
+
+        return App::view('projects/boomslang', $data, 'layouts/standard');
+    }
+
 }

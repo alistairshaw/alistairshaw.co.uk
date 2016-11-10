@@ -5,13 +5,16 @@
         'vendirun' =>  'sections/projects/vendirun',
         'hygge' =>  'sections/projects/hygge',
         'emedicus' =>  'sections/projects/emedicus',
-        'vkp' =>  'sections/projects/vkp'
+        'vkp' =>  'sections/projects/vkp',
+        'boomslang' =>  'sections/projects/boomslang',
     ];
 ?>
 <div class="project-footer">
     <h2>Recent Projects</h2>
     <div class="project-list">
         <?php
+
+            shuffle($availableProjects);
 
             $count = 0;
             foreach ($availableProjects as $project => $view)
