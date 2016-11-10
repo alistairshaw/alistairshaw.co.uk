@@ -11,8 +11,8 @@
         <p>
             I favour either Angular or React/Redux depending on the project requirements. Having worked with jQuery
             for years I tend to avoid it for greenfield projects, but a large part of my existing work is written with it.
-            I generally favour SASS over LESS, and Grunt over Gulp for tooling, but these things are essentially
-            interchangeable.
+            I generally favour SASS over LESS, Grunt over Gulp and Babilify for ES2015 over Webpack, but these things are
+            essentially interchangeable.
         </p>
         <h2>Testing</h2>
         <p>

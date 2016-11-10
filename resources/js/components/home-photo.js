@@ -1,4 +1,5 @@
 export function homePhoto(homePhoto, current) {
+    if (!homePhoto) return;
     let photoHeight = homePhoto.offsetWidth - (homePhoto.style.borderWidth * 2);
     let ratio = photoHeight / window.innerHeight;
 
@@ -9,6 +10,7 @@ export function homePhoto(homePhoto, current) {
 
 export function homePhotoSetup() {
     let photoElement = document.getElementById('homePhoto');
+    if (!homePhoto) return;
 
     if (photoElement != undefined) {
         let photoHeight = photoElement.offsetWidth - (photoElement.style.borderWidth * 2);

@@ -32,5 +32,42 @@ $font-colour: #444 !default;
                 }
             }
         }
+        @media (max-width: 980px) and (min-width: 851px) {
+            font-size: 0.9em;
+            .tool-icons {
+                li {
+                    margin-bottom: 6px;
+                    width: 40px;
+                    height: 40px;
+                    background-size: 40px 40px !important;
+                    &:before {
+                        top: 2px;
+                        left: 60px;
+                        width: auto;
+                        white-space: nowrap;
+                    }
+                }
+            }
+        }
+        @media (max-width: 850px) and (min-width: $breakpoint-md) {
+            font-size: 0.9em;
+            .tool-icons {
+                li {
+                    margin-bottom: 6px;
+                    width: 30px;
+                    height: 30px;
+                    background-size: 30px 30px !important;
+                    &:before {
+                        top: 0;
+                        left: 40px;
+                        width: auto;
+                        white-space: nowrap;
+                    }
+                }
+            }
+        }
+        @media (max-width: $breakpoint-md) {
+            margin-top: 0;
+        }
     }
 }
