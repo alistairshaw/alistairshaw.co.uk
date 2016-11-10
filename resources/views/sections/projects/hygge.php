@@ -4,5 +4,5 @@
     </a>
     <h2>Hygge</h2>
     <h3>Mobile App</h3>
-    <?php echo \App\App::view('components/tools', ['tools' => ['android', 'nodejs', 'javascript', 'mongodb']]) ?>
+    <?php echo \App\App::view('components/tools', ['tools' => ['java', 'javascript', 'mongodb', 'android', 'nodejs']]) ?>
 </article>

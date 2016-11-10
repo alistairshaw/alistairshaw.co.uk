@@ -4,5 +4,5 @@
     </a>
     <h2>Emedicus</h2>
     <h3>eLearning Commercial Platform</h3>
-    <?php echo \App\App::view('components/tools', ['tools' => ['php', 'laravel', 'javascript', 'mysql', 'sass', 'gulp']]) ?>
+    <?php echo \App\App::view('components/tools', ['tools' => ['php', 'javascript', 'mysql', 'laravel']]) ?>
 </article>

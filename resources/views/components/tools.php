@@ -63,9 +63,9 @@
 
     if (isset($tools))
     {
-        foreach ($availableTools as $availableTool => $url)
+        foreach ($tools as $tool)
         {
-            foreach ($tools as $tool)
+            foreach ($availableTools as $availableTool => $url)
             {
                 if ($tool == $availableTool) echo '<li class="' . $tool . '"><a href="' . $url . '"></a></li>' . "\n";
             }

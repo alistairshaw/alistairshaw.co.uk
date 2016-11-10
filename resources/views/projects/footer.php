@@ -5,6 +5,7 @@
         'vendirun' =>  'sections/projects/vendirun',
         'hygge' =>  'sections/projects/hygge',
         'emedicus' =>  'sections/projects/emedicus',
+        'vkp' =>  'sections/projects/vkp'
     ];
 ?>
 <div class="project-footer">

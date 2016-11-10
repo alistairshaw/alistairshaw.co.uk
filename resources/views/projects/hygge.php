@@ -19,7 +19,7 @@
             <?php
             echo \App\App::view('components/tools',
                 [
-                    'tools' => ['android', 'nodejs', 'mongodb', 'npm']
+                    'tools' => ['java', 'javascript', 'mongodb', 'nodejs', 'android', 'npm', 'gradle']
                 ])
             ?>
             <p>

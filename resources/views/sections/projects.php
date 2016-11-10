@@ -10,5 +10,8 @@
             <?php echo App::view('sections/projects/vendirun') ?>
             <?php echo App::view('sections/projects/hygge') ?>
         </div>
+        <p>
+            <a href="/projects">See More</a>
+        </p>
     </div>
 </div>

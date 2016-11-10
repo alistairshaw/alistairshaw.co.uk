@@ -12,6 +12,7 @@
             <li class="environment-agency"><a href="#" title="Environment Agency"></a></li>
             <li class="investec"><a href="#" title="Investec"></a></li>
             <li class="omd-group"><a href="#" title="OMD Group"></a></li>
+            <li class="university-of-nottingham"><a href="#" title="University of Nottingham"></a></li>
         </ul>
     </div>
 </div>

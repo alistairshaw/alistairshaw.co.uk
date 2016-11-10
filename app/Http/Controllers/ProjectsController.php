@@ -39,4 +39,11 @@ class ProjectsController extends Controller {
         return App::view('projects/emedicus', $data, 'layouts/standard');
     }
 
+    public function vkp()
+    {
+        $data['navSelected'] = 'projects';
+
+        return App::view('projects/vkp', $data, 'layouts/standard');
+    }
+
 }
