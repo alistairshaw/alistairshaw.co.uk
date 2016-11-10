@@ -44,5 +44,8 @@ $base-spacing: 20px !default;
         &.university-of-nottingham {
             @include background-2x('../img/corporate-logos/university-of-nottingham', 'jpg', 190px, 100px, center center, no-repeat);
         }
+        &.nhs {
+            @include background-2x('../img/corporate-logos/nhs', 'jpg', 190px, 100px, center center, no-repeat);
+        }
     }
 }

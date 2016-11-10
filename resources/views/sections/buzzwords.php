@@ -1,6 +1,6 @@
 <div class="buzzwords">
     <div class="container">
-        <h1>Buzzwords and Acronyms</h1>
+        <h1>Keywords and Acronyms</h1>
         <h2>Languages</h2>
         <p>
             I currently spend most of my time working in PHP on a fairly standard LAMP stack, occasionally with
@@ -19,6 +19,13 @@
             I have experience in both TDD (Test Driven Design) and BDD (Behaviour Driven Design). I do prefer
             to work in a test driven manner for new projects, but have been able to very successfully leverage the
             ideals of BDD on legacy systems.
+        </p>
+        <h2>Architecture</h2>
+        <p>
+            I have built several highly scalable systems, either with a distributed or micro-services architecture, as
+            well as going through the process of transferring a legacy monolith to this more flexible and scalable
+            solution while maintaining continuous delivery, uninterrupted up-time and the addition of new features
+            throughout the entire process.
         </p>
     </div>
 </div>

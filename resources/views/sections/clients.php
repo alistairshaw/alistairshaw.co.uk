@@ -7,12 +7,13 @@
             you'd like more information.
         </p>
         <ul class="brands">
-            <li class="disney"><a href="#" title="Disney"></a></li>
-            <li class="expedia"><a href="#" title="Expedia"></a></li>
-            <li class="environment-agency"><a href="#" title="Environment Agency"></a></li>
-            <li class="investec"><a href="#" title="Investec"></a></li>
-            <li class="omd-group"><a href="#" title="OMD Group"></a></li>
-            <li class="university-of-nottingham"><a href="#" title="University of Nottingham"></a></li>
+            <li class="disney"><span title="Disney"></span></li>
+            <li class="expedia"><span title="Expedia"></span></li>
+            <li class="environment-agency"><span title="Environment Agency"></span></li>
+            <li class="investec"><span title="Investec"></span></li>
+            <li class="omd-group"><span title="OMD Group"></span></li>
+            <li class="university-of-nottingham"><span title="University of Nottingham"></span></li>
+            <li class="nhs"><span title="National Health Service"></span></li>
         </ul>
     </div>
 </div>
