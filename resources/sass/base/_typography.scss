@@ -30,6 +30,10 @@ h1 {
         border-bottom: 1px solid $brand-secondary;
         margin: $base-spacing / 2 auto $base-spacing auto;
     }
+    @media (max-width: $breakpoint-sm) {
+        font-size: 1.2em;
+        font-weight: 600;
+    }
 }
 
 h2 {

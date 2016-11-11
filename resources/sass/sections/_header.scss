@@ -1,6 +1,7 @@
 $font-colour: #444 !default;
 $brand-primary: #333 !default;
 $base-spacing: 20px !default;
+$breakpoint-sm: 465px !default;
 
 .main-header {
     background: white;
@@ -34,6 +35,12 @@ $base-spacing: 20px !default;
                 &.active {
                     color: $brand-primary;
                 }
+                @media (max-width: $breakpoint-sm) {
+                    a {
+                        display: block;
+                        padding: 12px 10px;
+                    }
+                }
             }
         }
     }
@@ -45,5 +52,8 @@ $base-spacing: 20px !default;
         float: left;
         opacity: 0.5;
         margin-top: 18px;
+        @media (max-width: $breakpoint-sm) {
+            width: 100%;
+        }
     }
 }
