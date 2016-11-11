@@ -1,6 +1,6 @@
 <?php
-require 'recipe/common.php';
-require 'recipe/rsync.php';
+require_once 'vendor/deployer/deployer/recipe/common.php';
+require_once 'vendor/deployphp/recipes/recipes/rsync.php';
 
 // Configure servers
 server('production', 'production.alistairshaw.co.uk')
@@ -8,7 +8,7 @@ server('production', 'production.alistairshaw.co.uk')
     ->identityFile('/var/lib/jenkins/.ssh/id_rsa.pub', '/var/lib/jenkins/.ssh/id_rsa')
     ->env('deploy_path', '/var/www/alistairshaw.co.uk');
 
-env('rsync_src', '/{{build_folder}}/');
+env('rsync_src', __DIR__);
 env('rsync_dest', '{{release_path}}');
 
 set('rsync', [
