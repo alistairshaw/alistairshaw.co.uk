@@ -106,7 +106,8 @@ module.exports = function (grunt) {
 
 	require('load-grunt-tasks')(grunt);
 
-	grunt.registerTask('default', ['copy', 'sass:dist', 'concat', 'browserify', 'uglify', 'cssmin', 'autoprefixer:production_css', 'watch']);
-	grunt.registerTask('reload' , ['copy', 'sass:dist', 'concat', 'browserify', 'uglify', 'cssmin', 'autoprefixer:production_css']);
+	grunt.registerTask('production', ['copy', 'sass:dist', 'concat', 'browserify', 'uglify', 'cssmin', 'autoprefixer:production_css']);
+	grunt.registerTask('default', ['copy', 'sass:dist', 'concat', 'browserify', 'watch']);
+	grunt.registerTask('reload' , ['copy', 'sass:dist', 'concat', 'browserify']);
 
 };
