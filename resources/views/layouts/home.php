@@ -12,7 +12,7 @@ use App\App;
 <body>
 <?php echo $content ?>
 <?php echo App::view('sections/footer', $parameters) ?>
+<script src="/js/production.min.js" type="application/javascript"></script>
 </body>
 </html>
 
-<script src="/js/production.min.js" type="application/javascript"></script>
