@@ -1,6 +1,6 @@
 <article>
     <a href="/projects/vkp" class="image">
-        <img src="/img/projects/vkp/homepage.png">
+        <img src="/img/projects/vkp/homepage.png" alt="VKP">
     </a>
     <h2>VKP</h2>
     <h3>Vocabulary Knowledge Profiler</h3>

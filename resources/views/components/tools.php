@@ -20,7 +20,7 @@
         'deployer' => 'http://deployer.org/',
         'vagrant' => 'http://vagrantup.com/',
 
-        'android' => 'https://developer.android.com"',
+        'android' => 'https://developer.android.com',
         'bamboo' => 'https://www.atlassian.com/software/bamboo',
         'jira' => 'https://www.atlassian.com/software/jira',
         'nodejs' => 'https://nodejs.org',

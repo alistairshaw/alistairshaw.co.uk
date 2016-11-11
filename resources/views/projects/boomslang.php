@@ -9,14 +9,14 @@
                 and re-brand it simply.
             </p>
             <div class="image">
-                <img src="/img/projects/boomslang/image1.jpg">
+                <img src="/img/projects/boomslang/image1.jpg" alt="Boomslang Homepage">
             </div>
             <p>
                 Simplicity of installation was key to the success of this project, and it ended up taking a moderately
                 knowledgeable person to be up and running in less than 10 minutes.
             </p>
             <div class="image">
-                <img src="/img/projects/boomslang/image2.jpg">
+                <img src="/img/projects/boomslang/image2.jpg" alt="Boomslang">
             </div>
             <p>
                 Once the application was installed, the partner's logo and colour scheme could be easy implemented
@@ -24,7 +24,7 @@
                 process already in place, using Expedia's powerful Affiliate API.
             </p>
             <div class="image">
-                <img src="/img/projects/boomslang/image3.jpg">
+                <img src="/img/projects/boomslang/image3.jpg" alt="Boomslang">
             </div>
         </div>
     </div>

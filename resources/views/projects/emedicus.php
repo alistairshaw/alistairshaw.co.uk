@@ -9,7 +9,7 @@
                 courses for them.
             </p>
             <div class="image">
-                <img src="/img/projects/emedicus/homepage.png">
+                <img src="/img/projects/emedicus/homepage.png" alt="eMedicus Home Page">
             </div>
             <p>
                 All of the courses on Emedicus can be purchased and added to the
@@ -17,14 +17,14 @@
                 your own personal CLICPoint instance.
             </p>
             <div class="image">
-                <img src="/img/projects/emedicus/course.png">
+                <img src="/img/projects/emedicus/course.png" alt="eMedicus Course View">
             </div>
             <p>
                 Customer accounts are shared across various platforms via a user authentication service, so a single
                 login works across all related websites and services.
             </p>
             <div class="image">
-                <img src="/img/projects/emedicus/purchase.png">
+                <img src="/img/projects/emedicus/purchase.png" alt="eMedicus Purchase Process">
             </div>
         </div>
     </div>
