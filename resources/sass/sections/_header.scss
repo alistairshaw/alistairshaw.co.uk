@@ -2,6 +2,7 @@ $font-colour: #444 !default;
 $brand-primary: #333 !default;
 $base-spacing: 20px !default;
 $breakpoint-sm: 465px !default;
+$breakpoint-md: 768px !default;
 
 .main-header {
     background: white;
@@ -38,7 +39,7 @@ $breakpoint-sm: 465px !default;
                 @media (max-width: $breakpoint-sm) {
                     a {
                         display: block;
-                        padding: 12px 10px;
+                        padding: 12px 6px;
                     }
                 }
             }
@@ -52,7 +53,7 @@ $breakpoint-sm: 465px !default;
         float: left;
         opacity: 0.5;
         margin-top: 18px;
-        @media (max-width: $breakpoint-sm) {
+        @media (max-width: $breakpoint-md) {
             width: 100%;
         }
     }
