@@ -15,6 +15,7 @@
     },
     "require-dev": {
         "symfony/var-dumper": "^3.1",
-        "deployer/deployer": "^3.3"
+        "deployer/deployer": "^3.3",
+        "deployphp/recipes": "~3.0"
     }
 }
