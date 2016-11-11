@@ -20,6 +20,9 @@ set('rsync', [
         'gruntfile',
         'package.json',
         'deploy.php',
+        'resources/img',
+        'resources/js',
+        'resources/sass'
     ],
     'exclude-file'  => false,
     'include'       => [],
@@ -29,7 +32,7 @@ set('rsync', [
     'filter-perdir' => false,
     'flags'         => 'rz', // Recursive, with compress
     'options'       => ['delete'],
-    'timeout'       => 60,
+    'timeout'       => 300,
 ]);
 
 task('deploy', [
