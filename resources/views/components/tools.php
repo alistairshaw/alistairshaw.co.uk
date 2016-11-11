@@ -33,7 +33,7 @@
         'html5' => 'https://www.w3.org/TR/html5/',
         'css3' => 'https://www.w3.org/TR/CSS/',
         'angular' => 'https://angularjs.org/',
-        'sql' => 'https://google.com?q=sql language',
+        'sql' => 'https://google.com?q=sql%20language',
         'gradle' => 'https://gradle.org/',
         'lumen' => 'https://lumen.laravel.com/',
         'sqlite' => 'https://sqlite.org/',
