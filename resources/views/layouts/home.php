@@ -7,7 +7,7 @@ use App\App;
  */
 ?>
 <!doctype html>
-<html lang="en" manifest="manifest.apache">
+<html lang="en" manifest="manifest.appcache">
 <?php echo App::view('sections/head', $parameters) ?>
 <body>
 <?php echo $content ?>
