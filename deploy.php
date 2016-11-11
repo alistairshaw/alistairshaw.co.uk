@@ -32,7 +32,7 @@ set('rsync', [
     'filter-perdir' => false,
     'flags'         => 'rz', // Recursive, with compress
     'options'       => ['delete'],
-    'timeout'       => 300,
+    'timeout'       => 600,
 ]);
 
 task('deploy', [
