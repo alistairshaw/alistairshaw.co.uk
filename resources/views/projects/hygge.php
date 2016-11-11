@@ -9,7 +9,7 @@
                 or going to see a particular movie.
             </p>
             <div class="image">
-                <img src="/img/projects/hygge/website.png" alt="Hygge Website">
+                <img src="/img/projects/hygge/website.png" alt="Hygge Website" width="100%" height="0">
             </div>
         </div>
     </div>

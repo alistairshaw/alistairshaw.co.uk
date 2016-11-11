@@ -1,6 +1,6 @@
 <article>
     <a href="/projects/hygge" class="image">
-        <img src="/img/projects/hygge/website.png" alt="Hygge">
+        <img src="/img/projects/hygge/website.png" alt="Hygge" width="100%" height="0">
     </a>
     <h2>Hygge</h2>
     <h3>Mobile App</h3>

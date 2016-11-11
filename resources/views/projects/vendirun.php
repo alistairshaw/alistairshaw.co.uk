@@ -9,21 +9,21 @@
                 and reach out to them via email and SMS.
             </p>
             <div class="image">
-                <img src="/img/projects/vendirun/shop1.png" alt="Vendirun Shop">
+                <img src="/img/projects/vendirun/shop1.png" alt="Vendirun Shop" width="100%" height="0">
             </div>
             <p>
                 The system includes a robust content management system, with an easy to use drag and drop interface and
                 a library of widgets to help make each user's website unique.
             </p>
             <div class="image">
-                <img src="/img/projects/vendirun/cms.png" alt="Vendirun CMS">
+                <img src="/img/projects/vendirun/cms.png" alt="Vendirun CMS" width="100%" height="0">
             </div>
             <p>
                 Other features of Vendirun include document and file storage, blogs, multi-lingual capabilities, calendar and
                 SMS marketing.
             </p>
             <div class="image">
-                <img src="/img/projects/vendirun/cloud-storage.png" alt="Vendirun Cloud Storage">
+                <img src="/img/projects/vendirun/cloud-storage.png" alt="Vendirun Cloud Storage" width="100%" height="0">
             </div>
             <p>
                 The fully featured customer relationship management system allows you to track your sales funnels,
@@ -31,14 +31,14 @@
                 you to send highly targeted and relevant marketing and to segment your list however you want.
             </p>
             <div class="image">
-                <img src="/img/projects/vendirun/contacts.png" alt="Vendirun Contacts">
+                <img src="/img/projects/vendirun/contacts.png" alt="Vendirun Contacts" width="100%" height="0">
             </div>
             <p>
                 The powerful event engine tracks all activity performed by your customers, including email communications,
                 marketing responses, telephone calls, etc.
             </p>
             <div class="image">
-                <img src="/img/projects/vendirun/contact.png" alt="Vendirun Contact View">
+                <img src="/img/projects/vendirun/contact.png" alt="Vendirun Contact View" width="100%" height="0">
             </div>
             <p>
                 The ordering and invoice system is either hooked up to your website to provide instant
@@ -47,7 +47,7 @@
                 management of shipments, returns and faulty goods.
             </p>
             <div class="image">
-                <img src="/img/projects/vendirun/order.png" alt="Vendirun Order">
+                <img src="/img/projects/vendirun/order.png" alt="Vendirun Order" width="100%" height="0">
             </div>
             <p>
                 We provide an

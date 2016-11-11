@@ -29,6 +29,7 @@ $base-spacing: 20px !default;
             justify-content: center;
             img {
                 max-width: 100%;
+                height: auto;
                 transition: max-width .5s ease;
             }
             &:hover {
