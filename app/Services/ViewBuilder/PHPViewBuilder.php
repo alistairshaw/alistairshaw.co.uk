@@ -18,6 +18,7 @@ class PHPViewBuilder implements ViewBuilder {
             $parameters['content'] = $this->get_include_contents("../resources/views/" . $path . '.php', $parameters);
             return new HtmlResponse($this->get_include_contents("../resources/views/" . $layout . '.php', $parameters));
         }
+
         return new HtmlResponse($this->get_include_contents("../resources/views/" . $path . '.php', $parameters));
     }
 
@@ -31,7 +32,11 @@ class PHPViewBuilder implements ViewBuilder {
         if (is_file($filename))
         {
             ob_start();
-            extract($parameters);
+            foreach ($parameters as $varName => $value)
+            {
+                if ($varName == 'filename') return '<code>Filename is a reserved variable</code>';
+                $$varName = $value;
+            }
             include $filename;
             $contents = ob_get_contents();
             ob_end_clean();

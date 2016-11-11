@@ -8,24 +8,18 @@
                 to their Expedia Affiliate API, to allow their partners to quickly and easily launch a new website
                 and re-brand it simply.
             </p>
-            <div class="image">
-                <img src="/img/projects/boomslang/image1.jpg" alt="Boomslang Homepage" width="100%" height="0">
-            </div>
+            <?php echo \App\App::view('components/responsive-image', ['imageLocation' => '/img/projects/boomslang/image1', 'alt' => 'Boomslang Homepage']) ?>
             <p>
                 Simplicity of installation was key to the success of this project, and it ended up taking a moderately
                 knowledgeable person to be up and running in less than 10 minutes.
             </p>
-            <div class="image">
-                <img src="/img/projects/boomslang/image2.jpg" alt="Boomslang" width="100%" height="0">
-            </div>
+            <?php echo \App\App::view('components/responsive-image', ['imageLocation' => '/img/projects/boomslang/image2', 'alt' => 'Boomslang Booking']) ?>
             <p>
                 Once the application was installed, the partner's logo and colour scheme could be easy implemented
                 to give each website a unique look and feel, but with the search, booking, registration and payment
                 process already in place, using Expedia's powerful Affiliate API.
             </p>
-            <div class="image">
-                <img src="/img/projects/boomslang/image3.jpg" alt="Boomslang" width="100%" height="0">
-            </div>
+            <?php echo \App\App::view('components/responsive-image', ['imageLocation' => '/img/projects/boomslang/image3', 'alt' => 'Boomslang Checkout']) ?>
         </div>
     </div>
     <div class="tech-stack">

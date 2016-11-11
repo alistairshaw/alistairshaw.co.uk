@@ -8,9 +8,7 @@
                 of activities. Anything from cycling to mountain climbing. From kayaking to just hanging out in a bar
                 or going to see a particular movie.
             </p>
-            <div class="image">
-                <img src="/img/projects/hygge/website.png" alt="Hygge Website" width="100%" height="0">
-            </div>
+            <?php echo \App\App::view('components/responsive-image', ['imageLocation' => '/img/projects/hygge/website', 'alt' => 'Hygge Website']) ?>
         </div>
     </div>
     <div class="tech-stack">

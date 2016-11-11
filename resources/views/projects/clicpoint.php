@@ -8,40 +8,30 @@
                 take quizzes and join in the discussion either via a forum, built-in chat or comments on each article.
                 Almost all of the available courses are CPD certified and in HD video.
             </p>
-            <div class="image">
-                <img src="/img/projects/clicpoint/homepage.png" alt="Clicpoint Home Page" width="100%" height="0">
-            </div>
+            <?php echo \App\App::view('components/responsive-image', ['imageLocation' => '/img/projects/clicpoint/homepage', 'alt' => 'Clicpoint Homepage']) ?>
             <p>
                 Users can join an existing CLICPoint, there are multiple public ones, all of which come with a video
                 learning package, or alternatively they can create their own custom CLICPoint and add learning
                 a-la-cart.
             </p>
-            <div class="image">
-                <img src="/img/projects/clicpoint/create.png" alt="Clicpoint Create New" width="100%" height="0">
-            </div>
+            <?php echo \App\App::view('components/responsive-image', ['imageLocation' => '/img/projects/clicpoint/create', 'alt' => 'Clicpoint Create']) ?>
             <p>
                 Learning is available in high resolution video streamed from our reliable and highly scalable video
                 service. We have learning available from many different providers and users have the ability to create,
                 brand and sell their own learning through our platform as well.
             </p>
-            <div class="image">
-                <img src="/img/projects/clicpoint/learning.png" alt="Clicpoint Learning" width="100%" height="0">
-            </div>
+            <?php echo \App\App::view('components/responsive-image', ['imageLocation' => '/img/projects/clicpoint/learning', 'alt' => 'Clicpoint Learning']) ?>
             <p>
                 CLICPoint members also get a curated and relevant news feed which includes commentary from expert tutors
                 who are available within the system to offer help, advice and guidance.
             </p>
-            <div class="image">
-                <img src="/img/projects/clicpoint/news.png" alt="Clicpoint News" width="100%" height="0">
-            </div>
+            <?php echo \App\App::view('components/responsive-image', ['imageLocation' => '/img/projects/clicpoint/news', 'alt' => 'Clicpoint News']) ?>
             <p>
                 Other features of CLICPoint include document storage, sharing and commentary, a powerful project
                 management tool that simplifies collaboration across large organisations and internal messaging and email.
                 We also include a curated news feed of the latest medical and NHS related information.
             </p>
-            <div class="image">
-                <img src="/img/projects/clicpoint/profile.png" alt="Clicpoint Profile">
-            </div>
+            <?php echo \App\App::view('components/responsive-image', ['imageLocation' => '/img/projects/clicpoint/profile', 'alt' => 'Clicpoint Profile']) ?>
         </div>
     </div>
     <div class="tech-stack">

@@ -8,24 +8,18 @@
                 e-learning for sale. It provides our users with a quick and easy way to find and purchase relevant
                 courses for them.
             </p>
-            <div class="image">
-                <img src="/img/projects/emedicus/homepage.png" alt="eMedicus Home Page" width="100%" height="0">
-            </div>
+            <?php echo \App\App::view('components/responsive-image', ['imageLocation' => '/img/projects/emedicus/homepage', 'alt' => 'eMedicus Home Page']) ?>
             <p>
                 All of the courses on Emedicus can be purchased and added to the
                 <a href="/projects/clicpoint">CLICPoint system</a>, either to a group that you control or to
                 your own personal CLICPoint instance.
             </p>
-            <div class="image">
-                <img src="/img/projects/emedicus/course.png" alt="eMedicus Course View" width="100%" height="0">
-            </div>
+            <?php echo \App\App::view('components/responsive-image', ['imageLocation' => '/img/projects/emedicus/course', 'alt' => 'eMedicus Course View']) ?>
             <p>
                 Customer accounts are shared across various platforms via a user authentication service, so a single
                 login works across all related websites and services.
             </p>
-            <div class="image">
-                <img src="/img/projects/emedicus/purchase.png" alt="eMedicus Purchase Process" width="100%" height="0">
-            </div>
+            <?php echo \App\App::view('components/responsive-image', ['imageLocation' => '/img/projects/emedicus/purchase', 'alt' => 'eMedicus Purchase']) ?>
         </div>
     </div>
     <div class="tech-stack">
