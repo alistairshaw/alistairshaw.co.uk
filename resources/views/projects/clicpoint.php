@@ -9,7 +9,7 @@
                 Almost all of the available courses are CPD certified and in HD video.
             </p>
             <div class="image">
-                <img src="/img/projects/clicpoint/homepage.png" alt="Clicpoint Home Page">
+                <img src="/img/projects/clicpoint/homepage.png" alt="Clicpoint Home Page" width="100%" height="0">
             </div>
             <p>
                 Users can join an existing CLICPoint, there are multiple public ones, all of which come with a video
@@ -17,7 +17,7 @@
                 a-la-cart.
             </p>
             <div class="image">
-                <img src="/img/projects/clicpoint/create.png" alt="Clicpoint Create New">
+                <img src="/img/projects/clicpoint/create.png" alt="Clicpoint Create New" width="100%" height="0">
             </div>
             <p>
                 Learning is available in high resolution video streamed from our reliable and highly scalable video
@@ -25,14 +25,14 @@
                 brand and sell their own learning through our platform as well.
             </p>
             <div class="image">
-                <img src="/img/projects/clicpoint/learning.png" alt="Clicpoint Learning">
+                <img src="/img/projects/clicpoint/learning.png" alt="Clicpoint Learning" width="100%" height="0">
             </div>
             <p>
                 CLICPoint members also get a curated and relevant news feed which includes commentary from expert tutors
                 who are available within the system to offer help, advice and guidance.
             </p>
             <div class="image">
-                <img src="/img/projects/clicpoint/news.png" alt="Clicpoint News">
+                <img src="/img/projects/clicpoint/news.png" alt="Clicpoint News" width="100%" height="0">
             </div>
             <p>
                 Other features of CLICPoint include document storage, sharing and commentary, a powerful project

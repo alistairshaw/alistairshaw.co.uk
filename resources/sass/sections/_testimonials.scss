@@ -18,6 +18,7 @@ $brand-primary: #444 !default;
             margin: 0 auto $base-spacing / 2 auto;
             img {
                 max-width: 100%;
+                max-height: 100%;
                 border-radius: 50%;
             }
         }

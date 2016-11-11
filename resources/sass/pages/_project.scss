@@ -19,6 +19,7 @@ $background1: white !default;
             margin: $base-spacing * 2 0;
             img {
                 max-width: 100%;
+                height: auto;
                 margin: 0;
                 display: block;
             }
