@@ -2,8 +2,8 @@
     <div class="container">
         <h1>Clients</h1>
         <p>
-            I've had the privilege over the years of working with a range of companies, from huge multi-national
-            brands to small businesses and start-ups. Here are a few that you might recognise, feel free to ask if
+            I've had the privilege over the years of working with a range of clients, from huge multi-national
+            brands to small businesses, government and start-ups. Here are a few that you might recognise, feel free to ask if
             you'd like more information.
         </p>
         <ul class="brands">
