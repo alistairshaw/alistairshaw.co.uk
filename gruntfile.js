@@ -72,14 +72,14 @@ module.exports = function (grunt) {
                         filter: 'isFile',
                         flatten: true
                     },
-                    {
+                    /*{
                         expand: true,
                         cwd: 'resources/img/',
                         src: ['**'],
                         dest: 'public/img/',
                         filter: 'isFile',
                         flatten: false
-                    }
+                    }*/
                 ]
             }
         },
@@ -136,12 +136,23 @@ module.exports = function (grunt) {
                 ],
                 dest: 'public/manifest.appcache'
             }
+        },
+
+        imagemin: {
+            dynamic: {
+                files: [{
+                    expand: true,
+                    cwd: 'resources/img',
+                    src: ['**/*.{png,jpg,gif}'],
+                    dest: 'public/img'
+                }]
+            }
         }
     });
 
     require('load-grunt-tasks')(grunt);
 
-    grunt.registerTask('production', ['copy', 'sass:dist', 'concat', 'browserify', 'uglify', 'cssmin', 'autoprefixer:production_css', 'manifest:generate']);
+    grunt.registerTask('production', ['copy', 'sass:dist', 'concat', 'browserify', 'uglify', 'cssmin', 'autoprefixer:production_css', 'imagemin', 'manifest:generate']);
     grunt.registerTask('default', ['copy', 'sass:dist', 'concat', 'browserify', 'watch']);
     grunt.registerTask('reload', ['copy', 'sass:dist', 'concat', 'browserify']);
 
