@@ -72,5 +72,16 @@ $base-spacing: 20px !default;
                 }
             }
         }
+        @media(max-width: $breakpoint-sm) {
+            margin: 20px 0 20px 0;
+            .tool-icons {
+                padding: 0;
+                li {
+                    width: 25px;
+                    height: 25px;
+                    margin: 0;
+                }
+            }
+        }
     }
 }

@@ -12,7 +12,6 @@ use App\App;
 <body>
 <?php echo $content ?>
 <?php echo App::view('sections/footer', $parameters) ?>
-<script src="/js/production.min.js" type="application/javascript"></script>
+<?php echo App::view('sections/foot', $parameters) ?>
 </body>
 </html>
-
