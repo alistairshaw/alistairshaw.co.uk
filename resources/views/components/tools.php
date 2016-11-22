@@ -4,7 +4,6 @@
     // todo: move this into a helper (View Composer?) or something
     $availableTools = [
         'php' => 'http://www.php.net/',
-        'laravel' => 'https://laravel.com/',
         'javascript' => 'https://www.javascript.com/',
         'react' => 'https://github.com/reactjs',
         'elasticsearch' => 'https://www.elastic.co/',
@@ -20,6 +19,8 @@
         'deployer' => 'http://deployer.org/',
         'vagrant' => 'http://vagrantup.com/',
         'jenkins' => 'https://jenkins.io',
+
+        'laravel' => 'https://laravel.com/',
         'android' => 'https://developer.android.com',
         'bamboo' => 'https://www.atlassian.com/software/bamboo',
         'jira' => 'https://www.atlassian.com/software/jira',
