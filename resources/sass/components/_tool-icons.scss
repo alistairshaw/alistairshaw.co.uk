@@ -374,5 +374,11 @@
                 content: "VAGRANT";
             }
         }
+        &.jenkins {
+            @include background-2x('../img/dev-tools/jenkins', 'png', 75px, 75px, center center, no-repeat);
+            &:before {
+                content: "JENKINS";
+            }
+        }
     }
 }

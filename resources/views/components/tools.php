@@ -19,7 +19,7 @@
         'npm' => 'https://www.npmjs.com/',
         'deployer' => 'http://deployer.org/',
         'vagrant' => 'http://vagrantup.com/',
-
+        'jenkins' => 'https://jenkins.io',
         'android' => 'https://developer.android.com',
         'bamboo' => 'https://www.atlassian.com/software/bamboo',
         'jira' => 'https://www.atlassian.com/software/jira',

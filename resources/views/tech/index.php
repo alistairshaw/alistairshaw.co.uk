@@ -32,7 +32,7 @@
             <?php
             echo \App\App::view('components/tools', [
                 'tools' => [
-                    'newrelic', 'vagrant', 'bamboo', 'deployer', 'jira'
+                    'jenkins', 'newrelic', 'vagrant', 'bamboo', 'deployer', 'jira'
                 ]
             ])
             ?>
