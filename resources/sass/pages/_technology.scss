@@ -1,4 +1,7 @@
 $font-colour: #444 !default;
+$base-spacing: 40px !default;
+$breakpoint-md: 768px !default;
+$breakpoint-sm: 460px !default;
 
 .technology {
     @extend .container;
@@ -68,6 +71,10 @@ $font-colour: #444 !default;
         }
         @media (max-width: $breakpoint-md) {
             margin-top: 0;
+        }
+        @media (max-width: $breakpoint-sm) {
+            margin: 0 -40px 6px -40px;
+            box-shadow: none;
         }
     }
 }

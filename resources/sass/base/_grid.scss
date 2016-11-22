@@ -1,6 +1,7 @@
 $base-spacing: 20px !default;
 $container-width: 1190px !default;
 $breakpoint-md: 768px !default;
+$breakpoint-sm: 460px !default;
 
 .clearfix {
     &:after {
@@ -14,6 +15,9 @@ $breakpoint-md: 768px !default;
     max-width: $container-width - ($base-spacing * 2);
     margin: auto;
     padding: 0 $base-spacing;
+    @media (max-width: $breakpoint-sm) {
+        padding: 0 $base-spacing / 2;
+    }
 }
 
 .row {
