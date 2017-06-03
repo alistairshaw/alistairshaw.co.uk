@@ -120,7 +120,7 @@ module.exports = function (grunt) {
             generate: {
                 options: {
                     basePath: 'public/',
-                    network: ['http://*', 'https://*'],
+                    network: ['*'],
                     preferOnline: true,
                     headcomment: " <%= pkg.name %> v<%= pkg.version %>",
                     verbose: true,
