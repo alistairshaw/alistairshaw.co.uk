@@ -36,6 +36,7 @@ class Router implements RouterInterface {
     /**
      * @param $controllerName
      * @return Controller
+     * @throws ControllerNotFoundException
      */
     private function getController($controllerName)
     {
