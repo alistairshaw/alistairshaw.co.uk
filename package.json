@@ -23,6 +23,8 @@
     "normalize.css": "^5.0.0"
   },
   "scripts": {
+    "prod": "grunt production",
+    "dev": "grunt",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
