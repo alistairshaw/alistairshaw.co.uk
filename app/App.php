@@ -4,6 +4,7 @@ use App\Exceptions\FourOhFourException;
 use App\Http\Responses\HtmlResponse;
 use App\Router\Router;
 use App\Services\ViewBuilder\PHPViewBuilder;
+use Dotenv\Dotenv;
 
 class App {
 
@@ -11,6 +12,9 @@ class App {
     {
         try
         {
+            $dotEnv = new Dotenv(__DIR__ . '/../');
+            $dotEnv->load();
+
             $router = new Router();
             $response = $router->load($_SERVER['REQUEST_URI']);
             $response->display();

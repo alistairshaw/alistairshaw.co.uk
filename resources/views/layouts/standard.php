@@ -1,14 +1,13 @@
 <?php
 
 use App\App;
-
 /**
  * @var $content
  * @var $parameters
  */
 ?>
 <!doctype html>
-<html lang="en" manifest="manifest.appcache">
+<html lang="en" manifest="<?php echo $parameters['manifest'] ? 'manifest.appcache' : '' ?>">
 <?php echo App::view('sections/head', $parameters) ?>
 <body>
 <?php echo App::view('sections/header', $parameters) ?>

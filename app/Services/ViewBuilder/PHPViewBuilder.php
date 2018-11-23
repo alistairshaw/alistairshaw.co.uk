@@ -19,6 +19,8 @@ class PHPViewBuilder implements ViewBuilder {
             return new HtmlResponse($this->get_include_contents("../resources/views/" . $layout . '.php', $parameters));
         }
 
+        $parameters['manifest'] = getenv('environment') !== 'local';
+
         return new HtmlResponse($this->get_include_contents("../resources/views/" . $path . '.php', $parameters));
     }
 
