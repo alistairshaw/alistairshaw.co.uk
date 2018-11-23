@@ -5,11 +5,23 @@
         <ul class="timeline">
             <li>
                 <article>
+                    <h3>Lead Software Engineer</h3>
+                    <p class="company">Sprint Media Limited <i class="fa fa-circle"></i>
+                        <span>January 2017 - Present</span></p>
+                    <p>
+                        Having been the principal architect of Sprint's highly successful SaaS product "Campus", I joined
+                        Sprint full-time to head up the software engineering department and managing, developing and
+                        rolling out the conversion from monolithic system to a stack of highly scalable distributed services.
+                    </p>
+                </article>
+            </li>
+            <li>
+                <article>
                     <h3>Software Architect</h3>
                     <p class="company">Alistair Shaw Consulting Limited <i class="fa fa-circle"></i>
-                        <span>July 2015 - Present</span></p>
+                        <span>July 2015 - January 2017</span></p>
                     <p>
-                        Working as a consultant in various contracting roles. Distributed Services Architecture, mostly
+                        Worked as a consultant in various contracting roles. Distributed Services Architecture, mostly
                         in PHP or NodeJS, leveraging React and Angular for the front-end and MongoDB, Elasticsearch and MySQL for
                         the persistence layer.
                     </p>

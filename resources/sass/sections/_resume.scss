@@ -108,6 +108,9 @@ $breakpoint-md: 768px !default;
                     }
                 }
             }
+            &:nth-last-child(2) {
+                padding-bottom: 60px;
+            }
             &:hover {
                 &:after {
                     color: $brand-primary;
