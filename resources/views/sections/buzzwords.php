@@ -11,7 +11,7 @@
         <p>
             I favour either Angular or React/Redux depending on the project requirements. Having worked with jQuery
             for years I tend to avoid it for greenfield projects, but a large part of my existing work is written with it.
-            I generally favour SASS over LESS, Grunt over Gulp and Babilify for ES2015 over Webpack, but these things are
+            I generally favour SASS over LESS, Webpack over Grunt/Gulp/Babelify for ES6/ES2015+, but these things are
             essentially interchangeable.
         </p>
         <h2>Testing</h2>
@@ -19,6 +19,12 @@
             I have experience in both TDD (Test Driven Design) and BDD (Behaviour Driven Design). I do prefer
             to work in a test driven manner for new projects, but have been able to very successfully leverage the
             ideals of BDD on legacy systems.
+        </p>
+        <h2>Object Oriented Programming</h2>
+        <p>
+            I am a huge proponent of Domain Driven Design and an evangelist for the SOLID principles. I have spoken
+            at local user groups on Liskov Substitution and on the importance of separation of concerns and the Single
+            Responsibility Principle.
         </p>
         <h2>Architecture</h2>
         <p>
