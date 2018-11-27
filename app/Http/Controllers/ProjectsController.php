@@ -11,6 +11,13 @@ class ProjectsController extends Controller {
         return App::view('projects/index', $data, 'layouts/standard');
     }
 
+    public function campus()
+    {
+        $data['navSelected'] = 'projects';
+
+        return App::view('projects/campus', $data, 'layouts/standard');
+    }
+
     public function clicpoint()
     {
         $data['navSelected'] = 'projects';

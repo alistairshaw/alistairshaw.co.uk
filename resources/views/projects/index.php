@@ -1,1 +1,1 @@
-<?php echo App\App::view('projects/footer') ?>
+<?php echo App\App::view('projects/footer');
