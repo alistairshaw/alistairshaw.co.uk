@@ -10,8 +10,8 @@
                         <span>January 2017 - Present</span></p>
                     <p>
                         Having been the principal architect of Sprint's highly successful SaaS product "Campus", I joined
-                        Sprint full-time to head up the software engineering department and managing, developing and
-                        rolling out the conversion from monolithic system to a stack of highly scalable distributed services.
+                        Sprint full-time to head up the software engineering department and manage, develop and
+                        roll out the conversion from monolithic system to a stack of highly scalable distributed services.
                     </p>
                 </article>
             </li>
@@ -56,9 +56,8 @@
                     <p class="company">Arias UK Limited <i class="fa fa-circle"></i>
                         <span>June 2011 - September 2011</span></p>
                     <p>
-                        I was responsible for managing a team of
-                        outsourced developers as well as having a personal hand in the development of custom web based
-                        applications, websites and mobile apps for our clients.
+                        I was responsible for managing a team of outsourced developers as well as having a personal
+                        hand in the development of custom web based applications, websites and mobile apps for our clients.
                     </p>
                 </article>
             </li>
@@ -78,7 +77,7 @@
                     <p class="company">Obelisk International <i class="fa fa-circle"></i>
                         <span>October 2006 - June 2009</span></p>
                     <p>
-                        I designed and built a highly complex CRM system to effectively manage the ever growing database
+                        I designed and built a complex CRM and ERP system to effectively manage the ever growing database
                         of clients, leads, developers, lawyers and agents. Quickly rose to lead developer and then
                         IT manager. Managing a team of 8 people, I was responsible for all aspects of Information
                         Technology within the company.
