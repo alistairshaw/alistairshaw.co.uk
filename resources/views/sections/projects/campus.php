@@ -1,6 +1,6 @@
 <article>
     <a href="/projects/campus" class="image">
-        <img src="/img/projects/campus/email-editor-sm.jpg" alt="Campus" width="100%" height="0">
+        <img src="/img/projects/campus/email-editor-sm.jpg" alt="Campus">
     </a>
     <h2>Campus</h2>
     <h3>CRM &amp; Education Marketing Platform</h3>

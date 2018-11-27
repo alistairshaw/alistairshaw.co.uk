@@ -1,6 +1,6 @@
 <article>
     <a href="/projects/emedicus" class="image">
-        <img src="/img/projects/emedicus/homepage-sm.jpg" alt="eMedicus" width="100%" height="0">
+        <img src="/img/projects/emedicus/homepage-sm.jpg" alt="eMedicus">
     </a>
     <h2>Emedicus</h2>
     <h3>eLearning Commercial Platform</h3>
