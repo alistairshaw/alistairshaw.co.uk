@@ -4,6 +4,7 @@
         'campus' => 'sections/projects/campus',
         'clicpoint' =>  'sections/projects/clicpoint',
         'vendirun' =>  'sections/projects/vendirun',
+        'teacherperks' =>  'sections/projects/teacherperks',
         'hygge' =>  'sections/projects/hygge',
         'emedicus' =>  'sections/projects/emedicus',
         'vkp' =>  'sections/projects/vkp',

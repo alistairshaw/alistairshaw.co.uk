@@ -32,6 +32,13 @@ class ProjectsController extends Controller {
         return App::view('projects/vendirun', $data, 'layouts/standard');
     }
 
+    public function teacherperks()
+    {
+        $data['navSelected'] = 'projects';
+
+        return App::view('projects/teacherperks', $data, 'layouts/standard');
+    }
+
     public function hygge()
     {
         $data['navSelected'] = 'projects';
