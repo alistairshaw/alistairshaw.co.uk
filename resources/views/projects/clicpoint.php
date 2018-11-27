@@ -50,11 +50,6 @@
                 to pull data, create users and manage subscription services. We use Amazon AWS S3 to securely store the
                 video assets and a CDN for images.
             </p>
-            <h2>Recent Developments</h2>
-            <p>
-                We recently opened up the system to allow anyone to create their own CLICPoint instance. Learning can later
-                be added to these instances, or they can be used purely for their collaborative functionality.
-            </p>
             <h2>More Information</h2>
             <p>
                 <a href="http://clicpoint.co.uk">Visit the website</a>

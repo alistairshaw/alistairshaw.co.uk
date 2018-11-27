@@ -39,7 +39,7 @@
             <p>
                 Using the well known and established Code Igniter as the framework and a mysql database for caching
                 and personalisation, keeps the system small and easy to understand. Bootstrap is used as a basis for
-                the CSS, and the additional CSS provided can easily be edited or excluded in favour or a more
+                the CSS, and the additional CSS provided can easily be edited or excluded in favour of a more
                 customised version.
             </p>
         </div>

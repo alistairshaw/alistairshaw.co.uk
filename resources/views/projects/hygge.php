@@ -23,10 +23,6 @@
             <p>
                 The back-end is built using NodeJS and MongoDB, and exposes a REST API for the Android and iOS apps.
             </p>
-            <h2>Recent Developments</h2>
-            <p>
-                We plan to launch our MVP by the end of November 2016, with a public launch in the new year.
-            </p>
         </div>
     </div>
 </div>

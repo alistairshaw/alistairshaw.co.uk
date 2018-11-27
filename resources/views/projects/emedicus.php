@@ -37,11 +37,6 @@
                 data into the site comes from REST APIs provided by other parts of the distributed system. Purchases
                 and enquiries are forwarded to the purchasing system and the in-house CRM respectively.
             </p>
-            <h2>Recent Developments</h2>
-            <p>
-                We are working on a new control panel system for providers to easily create and manage their courses.
-                Stay tuned!
-            </p>
         </div>
     </div>
 </div>

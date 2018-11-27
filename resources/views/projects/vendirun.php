@@ -38,6 +38,11 @@
             </p>
             <?php echo \App\App::view('components/responsive-image', ['imageLocation' => '/img/projects/vendirun/order', 'alt' => 'Vendirun Order']) ?>
             <p>
+                A sophisticated marketing automation module allows you to set up automatic email schedules, call schedules,
+                appointments, subscriptions and sales pipelines.
+            </p>
+            <?php echo \App\App::view('components/responsive-image', ['imageLocation' => '/img/projects/vendirun/marketing-automation', 'alt' => 'Vendirun Order']) ?>
+            <p>
                 We provide an
                 <a href="https://github.com/alistairshaw/vendirun-plugin">open-source Laravel plugin</a> which
                 interfaces with the Vendirun REST API to automatically create a website linked to Vendirun's CMS and other
@@ -57,13 +62,10 @@
                 (also an Open Source project of mine) to send the email marketing. This allows
                 us to easily switch providers without needing to modify any code.
             </p>
-            <h2>Recent Developments</h2>
-            <p>
-                We recently launched the latest version of both the primary platform and the Laravel plugin for Vendirun.
-                We have several paying customers and are currently in BETA. The application will be released to a select
-                few over the coming months after which it will be made available to the general public.
-            </p>
             <h2>More Information</h2>
+            <p>
+                <a href="https://vendirun.co.uk" target="_blank">Check out the main website</a>
+            </p>
             <p>
                 <a href="http://propertydemo.vendirun.com" target="_blank">Visit one of the demo websites</a>
             </p>
