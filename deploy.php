@@ -4,15 +4,15 @@ require_once 'vendor/deployphp/recipes/recipes/rsync.php';
 
 // Configure servers
 server('production', 'production.alistairshaw.co.uk')
-    ->user('jenkins')
-    ->identityFile('/var/lib/jenkins/.ssh/id_rsa.pub', '/var/lib/jenkins/.ssh/id_rsa')
+    ->user('alistair')
+    ->identityFile('/Users/alistairshaw/.ssh/id_rsa.pub', '/Users/alistairshaw/.ssh/id_rsa')
     ->env('deploy_path', '/var/www/alistairshaw.co.uk');
 
 env('rsync_src', __DIR__);
 env('rsync_dest', '{{release_path}}');
 
 set('rsync', [
-    'exclude'       => [
+    'exclude' => [
         '.git',
         '.gitignore',
         'composer.json',
@@ -24,15 +24,15 @@ set('rsync', [
         'resources/js',
         'resources/sass'
     ],
-    'exclude-file'  => false,
-    'include'       => [],
-    'include-file'  => false,
-    'filter'        => [],
-    'filter-file'   => false,
+    'exclude-file' => false,
+    'include' => [],
+    'include-file' => false,
+    'filter' => [],
+    'filter-file' => false,
     'filter-perdir' => false,
-    'flags'         => 'rz', // Recursive, with compress
-    'options'       => ['delete'],
-    'timeout'       => 600,
+    'flags' => 'rz', // Recursive, with compress
+    'options' => ['delete'],
+    'timeout' => 600,
 ]);
 
 task('deploy', [
