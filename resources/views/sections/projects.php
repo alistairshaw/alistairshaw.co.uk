@@ -6,8 +6,8 @@
             A selection of some of the projects I've been working on lately.
         </p>
         <div class="project-list">
+            <?php echo App::view('sections/projects/campus') ?>
             <?php echo App::view('sections/projects/clicpoint') ?>
-            <?php echo App::view('sections/projects/vendirun') ?>
             <?php echo App::view('sections/projects/hygge') ?>
         </div>
         <p>
