@@ -81,4 +81,11 @@ class ProjectsController extends Controller {
         return App::view('projects/investec', $data, 'layouts/standard');
     }
 
+    public function disney()
+    {
+        $data['navSelected'] = 'projects';
+
+        return App::view('projects/disney', $data, 'layouts/standard');
+    }
+
 }
