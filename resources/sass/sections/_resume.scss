@@ -9,7 +9,7 @@ $breakpoint-md: 768px !default;
 
 .resume {
     @extend .stripe;
-    background: $background1;
+    background: $background2;
     text-align: center;
     h2 {
         background: $font-colour;
@@ -47,7 +47,7 @@ $breakpoint-md: 768px !default;
     @extend .clearfix;
     list-style: none;
     font-size: 0.8em;
-    margin: 0;
+    margin: 0 0 $base-spacing 0;
     padding: 0;
     position: relative;
     @media (min-width: $breakpoint-md) {

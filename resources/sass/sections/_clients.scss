@@ -1,7 +1,9 @@
 $base-spacing: 20px !default;
+$background1: white !default;
 
 .clients {
     @extend .stripe;
+    background: $background1;
     p {
         text-align: center;
     }

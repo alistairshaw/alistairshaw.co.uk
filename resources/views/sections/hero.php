@@ -3,7 +3,7 @@
     <div class="cover">
         <div class="container">
             <h1>&lt;Alistair Shaw/&gt;</h1>
-            <h2>Software Architect + Programmer</h2>
+            <h2>Software Engineer</h2>
             <?php echo App::view('components/social') ?>
         </div>
     </div>

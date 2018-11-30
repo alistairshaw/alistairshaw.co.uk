@@ -14,12 +14,11 @@ body {
 
 h1 {
     text-align: center;
-    font-weight: 800;
+    font-weight: 300;
     font-size: 3em;
     color: darken($font-colour, 10%);
     margin: $base-spacing 0 $base-spacing 0;
     letter-spacing: 3px;
-    text-transform: uppercase;
     &:after {
         content: " ";
         display: block;

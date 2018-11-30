@@ -1,6 +1,7 @@
 <div class="resume">
     <div class="container">
         <h1>Resume</h1>
+        <p><a href="/Alistair Shaw Resume 2018.pdf" target="_blank">Download full Resume in PDF format</a></p>
         <h2>Work Experience</h2>
         <ul class="timeline">
             <li>
@@ -9,9 +10,8 @@
                     <p class="company">Sprint Media Limited <i class="fa fa-circle"></i>
                         <span>January 2017 - Present</span></p>
                     <p>
-                        Having been the principal architect of Sprint's highly successful SaaS product "Campus", I joined
-                        Sprint full-time to head up the software engineering department and manage, develop and
-                        roll out the conversion from monolithic system to a stack of highly scalable distributed services.
+                        Orchestrated the refactoring of existing MVC code to leverage domain driven design and SOLID
+                        principles while continuing to deliver new features, driving customer growth and retention.
                     </p>
                 </article>
             </li>
@@ -21,9 +21,10 @@
                     <p class="company">Alistair Shaw Consulting Limited <i class="fa fa-circle"></i>
                         <span>July 2015 - January 2017</span></p>
                     <p>
-                        Worked as a consultant in various contracting roles. Distributed Services Architecture, mostly
-                        in PHP or NodeJS, leveraging React and Angular for the front-end and MongoDB, Elasticsearch and MySQL for
-                        the persistence layer.
+                        Engineered a complete SaaS video e-learning and collaboration platform for the medical
+                        industry using a distributed services architecture. Created Rest API endpoints to support
+                        the development and deployment of multiple marketing and news aggregation platforms for
+                        sales and marketing.
                     </p>
                 </article>
             </li>
@@ -33,8 +34,9 @@
                     <p class="company">Ambitious Digital Limited <i class="fa fa-circle"></i>
                         <span>September 2012 - July 2015</span></p>
                     <p>
-                        Managed a team of developers, testers and marketers as well as hands-on coding of large software
-                        projects, including CRM, ERP and Email Marketing tools.
+                        Utilized excellent communication skills and advanced business knowledge to help secure
+                        diverse projects for the company - including an online language learning platform and a
+                        warehouse management / stock control system for a large electronics company.
                     </p>
                 </article>
             </li>
@@ -42,11 +44,11 @@
                 <article>
                     <h3>Lead Software Developer</h3>
                     <p class="company">138 Sungame Limited <i class="fa fa-circle"></i>
-                        <span>September 2011 - September 2012</span></p>
+                        <span>July 2012 - September 2012</span></p>
                     <p>
-                        As the lead developer on the main gaming portal, I managed 3 teams of developers, designers and
-                        UX experts. One in London, one in Singapore and the other based at the parent company offices
-                        in Malaysia.
+                        Developed and launched the main marketing portal and primary website for the UK debut of
+                        the 138 Sungame online gambling portal. Unified and led three teams of developers, designers
+                        and UX experts across international offices in London, Singapore and Malaysia.
                     </p>
                 </article>
             </li>
@@ -54,10 +56,12 @@
                 <article>
                     <h3>Head of Online Services</h3>
                     <p class="company">Arias UK Limited <i class="fa fa-circle"></i>
-                        <span>June 2011 - September 2011</span></p>
+                        <span>June 2011 - July 2012</span></p>
                     <p>
-                        I was responsible for managing a team of outsourced developers as well as having a personal
-                        hand in the development of custom web based applications, websites and mobile apps for our clients.
+                        Accelerated and enhanced the delivery of a custom video streaming platform into major customers
+                        such as Investec and the Environment Agency. Spearheaded diverse projects for major clients
+                        including Disney, Expedia and OMD. Meaningfully reduced developer turnover by mentoring and training.
+
                     </p>
                 </article>
             </li>
@@ -66,8 +70,8 @@
                     <h3>IT Consultant</h3>
                     <p class="company">Alistair Shaw <i class="fa fa-circle"></i> <span>June 2009 - June 2011</span></p>
                     <p>
-                        I managed outsourced software and website development for a variety of international clients as
-                        well as consulting on all aspects of IT, web marketing and database administration.
+                        Delivered on time and under budget websites and web applications for a variety of international
+                        clients in industries as diverse as real estate, finance and hospitality.
                     </p>
                 </article>
             </li>
@@ -77,10 +81,11 @@
                     <p class="company">Obelisk International <i class="fa fa-circle"></i>
                         <span>October 2006 - June 2009</span></p>
                     <p>
-                        I designed and built a complex CRM and ERP system to effectively manage the ever growing database
-                        of clients, leads, developers, lawyers and agents. Quickly rose to lead developer and then
-                        IT manager. Managing a team of 8 people, I was responsible for all aspects of Information
-                        Technology within the company.
+                        Designed and built a complex CRM and ERP system, saving the company an estimated 250 man-hours
+                        per week. A figure that would rise to 750 man-hours per week in 2007 as the company grew the
+                        sales team by a factor of three. Implemented an Active Directory network, streamlining the
+                        IT department and improving average time to resolution for the sales team from over 2 hours
+                        to just 10 minutes.
                     </p>
                 </article>
             </li>
