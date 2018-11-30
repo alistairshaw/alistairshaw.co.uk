@@ -67,4 +67,18 @@ class ProjectsController extends Controller {
         return App::view('projects/boomslang', $data, 'layouts/standard');
     }
 
+    public function sungame()
+    {
+        $data['navSelected'] = 'projects';
+
+        return App::view('projects/sungame', $data, 'layouts/standard');
+    }
+
+    public function investec()
+    {
+        $data['navSelected'] = 'projects';
+
+        return App::view('projects/investec', $data, 'layouts/standard');
+    }
+
 }

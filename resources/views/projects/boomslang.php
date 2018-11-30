@@ -45,4 +45,4 @@
         </div>
     </div>
 </div>
-<?php echo App\App::view('projects/footer', ['exclude' => 'hygge']) ?>
+<?php echo App\App::view('projects/footer', ['exclude' => 'boomslang']) ?>

@@ -8,11 +8,14 @@
         'hygge' =>  'sections/projects/hygge',
         'emedicus' =>  'sections/projects/emedicus',
         'vkp' =>  'sections/projects/vkp',
-        'boomslang' =>  'sections/projects/boomslang'
+        'boomslang' =>  'sections/projects/boomslang',
+        'sungame' =>  'sections/projects/sungame',
+        'investec' =>  'sections/projects/investec',
+        'disney' =>  'sections/projects/disney'
     ];
 ?>
 <div class="project-footer">
-    <h2>Recent Projects</h2>
+    <h2>Projects</h2>
     <div class="project-list">
         <?php
 

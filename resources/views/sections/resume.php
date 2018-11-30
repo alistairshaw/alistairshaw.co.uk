@@ -61,7 +61,6 @@
                         Accelerated and enhanced the delivery of a custom video streaming platform into major customers
                         such as Investec and the Environment Agency. Spearheaded diverse projects for major clients
                         including Disney, Expedia and OMD. Meaningfully reduced developer turnover by mentoring and training.
-
                     </p>
                 </article>
             </li>
