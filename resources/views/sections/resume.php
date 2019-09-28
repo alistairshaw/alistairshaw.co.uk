@@ -35,7 +35,7 @@
                     <p class="company">Ambitious Digital Limited <i class="fa fa-circle"></i>
                         <span>September 2012 - July 2015</span></p>
                     <p>
-                        Utilized excellent communication skills and advanced business knowledge to help secure
+                        Used excellent communication skills and advanced business knowledge to help secure
                         diverse projects for the company - including an online language learning platform and a
                         warehouse management / stock control system for a large electronics company.
                     </p>
