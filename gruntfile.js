@@ -1,3 +1,5 @@
+const sass = require('node-sass');
+
 module.exports = function (grunt) {
 
     // 1. All configuration goes here
@@ -5,12 +7,12 @@ module.exports = function (grunt) {
         pkg: grunt.file.readJSON('package.json'),
 
         concat: {
-            /*javascripts: {
-             src: [
-             'resources/js/main.js'
-             ],
-             dest: 'public/js/production.min.js'			// we concatenate the JS to here to if we need to, we can skip the uglification for debugging
-             },*/
+            javascripts: {
+                src: [
+                    'resources/js/main.js'
+                ],
+                dest: 'public/js/production.min.js'			// we concatenate the JS to here to if we need to, we can skip the uglification for debugging
+            },
             css: {
                 src: [
                     'resources/css/main.css'
@@ -20,6 +22,10 @@ module.exports = function (grunt) {
         },
 
         sass: {
+            options: {
+                implementation: sass,
+                sourceMap: true
+            },
             dist: {
                 files: {
                     'resources/css/main.css': 'resources/sass/main.scss'
@@ -40,13 +46,14 @@ module.exports = function (grunt) {
             }
         },
 
-        browserify: {
+        babel: {
+            options: {
+                sourceMap: true,
+                presets: ['@babel/preset-env']
+            },
             dist: {
-                options: {
-                    transform: [['babelify', {presets: ['es2015']}]]
-                },
                 files: {
-                    'public/js/production.min.js': ['resources/js/main.js']
+                    'public/js/production.min.js': 'resources/js/main.js'
                 }
             }
         },
@@ -71,15 +78,7 @@ module.exports = function (grunt) {
                         dest: 'public/fonts/',
                         filter: 'isFile',
                         flatten: true
-                    },
-                    /*{
-                        expand: true,
-                        cwd: 'resources/img/',
-                        src: ['**'],
-                        dest: 'public/img/',
-                        filter: 'isFile',
-                        flatten: false
-                    }*/
+                    }
                 ]
             }
         },
@@ -88,7 +87,7 @@ module.exports = function (grunt) {
         watch: {
             scripts: {
                 files: ['resources/js/**/*.js'],
-                tasks: ['browserify'],
+                tasks: ['babel'],
                 options: {
                     spawn: false
                 }
@@ -152,8 +151,8 @@ module.exports = function (grunt) {
 
     require('load-grunt-tasks')(grunt);
 
-    grunt.registerTask('production', ['copy', 'sass:dist', 'concat', 'browserify', 'uglify', 'cssmin', 'autoprefixer:production_css', 'imagemin', 'manifest:generate']);
-    grunt.registerTask('default', ['copy', 'sass:dist', 'concat', 'browserify', 'watch']);
-    grunt.registerTask('reload', ['copy', 'sass:dist', 'concat', 'browserify']);
+    grunt.registerTask('production', ['copy', 'sass:dist', 'concat', 'babel', 'uglify', 'cssmin', 'autoprefixer:production_css', 'imagemin', 'manifest:generate']);
+    grunt.registerTask('default', ['copy', 'sass:dist', 'concat', 'babel', 'watch']);
+    grunt.registerTask('reload', ['copy', 'sass:dist', 'concat', 'babel']);
 
 };

@@ -13,4 +13,4 @@ This is my personal website. The code is shared here for anyone who might be int
 
 `npm run prod`
 
-`php deploy.php`
+`vendor/bin/dep deploy production`
