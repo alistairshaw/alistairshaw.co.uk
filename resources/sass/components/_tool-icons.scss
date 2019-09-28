@@ -50,6 +50,18 @@ $background2: #f0f0f0 !default
         &:before {
             @extend .tech-label;
         }
+        &.go {
+            @include background-2x('../img/dev-tools/go', 'png', 75px, 75px, center center, no-repeat);
+            &:before {
+                content: "GOLANG";
+            }
+        }
+        &.docker {
+            @include background-2x('../img/dev-tools/docker', 'png', 75px, 75px, center center, no-repeat);
+            &:before {
+                content: "DOCKER";
+            }
+        }
         &.php {
             @include background-2x('../img/dev-tools/php', 'png', 75px, 75px, center center, no-repeat);
             &:before {

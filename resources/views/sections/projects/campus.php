@@ -4,5 +4,5 @@
     </a>
     <h2>Campus</h2>
     <h3>CRM &amp; Education Marketing Platform</h3>
-    <?php echo \App\App::view('components/tools', ['tools' => ['php', 'javascript', 'mysql', 'rabbitmq', 'elasticsearch']]) ?>
+    <?php echo \App\App::view('components/tools', ['tools' => ['go', 'docker', 'php', 'javascript', 'mysql', 'rabbitmq']]) ?>
 </article>

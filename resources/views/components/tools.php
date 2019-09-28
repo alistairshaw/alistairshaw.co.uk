@@ -3,7 +3,9 @@
 
     // todo: move this into a helper (View Composer?) or something
     $availableTools = [
-        'php' => 'http://www.php.net/',
+        'go' => 'https://www.golang.org/',
+        'docker' => 'https://www.docker.com',
+        'php' => 'https://www.php.net/',
         'javascript' => 'https://www.javascript.com/',
         'mysql' => 'https://www.mysql.com/',
         'react' => 'https://github.com/reactjs',
@@ -15,11 +17,11 @@
         'sass' => 'http://sass-lang.com/',
         'npm' => 'https://www.npmjs.com/',
         'deployer' => 'http://deployer.org/',
-        'vagrant' => 'http://vagrantup.com/',
+        'vagrant' => 'https://vagrantup.com/',
         'bamboo' => 'https://www.atlassian.com/software/bamboo',
+
         'laravel' => 'https://laravel.com/',
         'phpunit' => 'https://phpunit.de/',
-
         'html5' => 'https://www.w3.org/TR/html5/',
         'css3' => 'https://www.w3.org/TR/CSS/',
         'memcached' => 'https://memcached.org/',

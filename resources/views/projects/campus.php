@@ -73,11 +73,12 @@
     <div class="tech-stack">
         <div class="container">
             <h2>The Technology Stack</h2>
-            <?php echo \App\App::view('components/tools', ['tools' => ['php', 'mysql', 'mongodb', 'javascript', 'jquery', 'react', 'codeigniter', 'laravel', 'rabbitmq', 'elasticsearch', 'redis', 'npm', 'composer', 'webpack', 'phpunit']]) ?>
+            <?php echo \App\App::view('components/tools', ['tools' => ['go', 'docker', 'php', 'mysql', 'mongodb', 'javascript', 'jquery', 'react', 'codeigniter', 'laravel', 'rabbitmq', 'elasticsearch', 'redis', 'npm', 'composer', 'webpack', 'phpunit']]) ?>
             <p>
-                The Campus application consists of a stack of distributed services, mostly written in PHP
-                with varied data storage options ranging from MySQL to MongoDB and Elasticsearch. We use RabbitMQ for
-                queueing across many of these services.
+                The Campus application consists of a combined stack of distributed and micro-services. Many of the legacy
+                services are written in PHP, new systems are being developed in Go and running on Docker Swarm.
+                We have varied data storage options, depending on use-case, ranging from MySQL to MongoDB and from
+                Redis to Elasticsearch. We use RabbitMQ for queueing across many of these services.
             </p>
             <p>
                 The front-end application is written in PHP and Javascript. We are currently in the process of moving
