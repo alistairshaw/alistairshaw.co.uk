@@ -28,6 +28,9 @@ $background1: white !default;
                 background: rgba(255,255,255,0.3);
             }
         }
+        &.ge {
+            @include background-2x('../img/corporate-logos/ge', 'png', 190px, 100px, center center, no-repeat);
+        }
         &.expedia {
             @include background-2x('../img/corporate-logos/expedia', 'png', 190px, 100px, center center, no-repeat);
         }

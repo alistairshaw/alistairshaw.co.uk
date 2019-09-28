@@ -17,11 +17,11 @@
                 <h2>Get in Touch</h2>
                 <p><label><i class="fa fa-envelope-o"></i> </label><span>alistairshaw@gmail.com</span></p>
                 <p><label><i class="fa fa-twitter"></i></label><span>@alistair_shaw</span></p>
-                <p><label><i class="fa fa-phone-square"></i></label><span>+44 (0)7851 222 528</span></p>
+                <p><label><i class="fa fa-phone-square"></i></label><span>+1 (440) 403-5658</span></p>
                 <p>
                     <label><i class="fa fa-globe"></i></label><span><a href="https://alistairshaw.co.uk">alistairshaw.co.uk</a></span>
                 </p>
-                <p><label><i class="fa fa-location-arrow"></i></label><span>Nottingham, United Kingdom</span></p>
+                <p><label><i class="fa fa-location-arrow"></i></label><span>Elyria, Ohio</span></p>
             </div>
             <div class="currently-working-with">
                 <h2>Currently Enjoy Working With</h2>

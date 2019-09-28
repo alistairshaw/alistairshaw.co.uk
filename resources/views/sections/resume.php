@@ -1,17 +1,18 @@
 <div class="resume">
     <div class="container">
         <h1>Resume</h1>
-        <p><a href="/Alistair Shaw Resume 2018.pdf" target="_blank">Download full Resume in PDF format</a></p>
+        <p><a href="/Alistair Shaw Resume 2019.pdf" target="_blank">Download full Resume in PDF format</a></p>
         <h2>Work Experience</h2>
         <ul class="timeline">
             <li>
                 <article>
-                    <h3>Lead Software Engineer</h3>
+                    <h3>CTO</h3>
                     <p class="company">Sprint Media Limited <i class="fa fa-circle"></i>
                         <span>January 2017 - Present</span></p>
                     <p>
-                        Orchestrated the refactoring of existing MVC code to leverage domain driven design and SOLID
-                        principles while continuing to deliver new features, driving customer growth and retention.
+                        Introducing a new toolchain including Go, Docker Swarm and Elasticsearch to implement a
+                        transformation to a more scalable micro-services architecture in order to prepare
+                        for sales expansion into new markets.
                     </p>
                 </article>
             </li>

@@ -7,6 +7,7 @@
             you'd like more information.
         </p>
         <ul class="brands">
+            <li class="ge"><span title="GE"></span></li>
             <li class="disney"><span title="Disney"></span></li>
             <li class="expedia"><span title="Expedia"></span></li>
             <li class="environment-agency"><span title="Environment Agency"></span></li>
