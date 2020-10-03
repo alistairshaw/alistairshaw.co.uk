@@ -3,11 +3,17 @@ This is my personal website. The code is shared here for anyone who might be int
 
 ## Making Changes
 
-`npm install` (http://localhost:5000)
+`composer install`
 
-`npm run dev`
+`npm install`
+
+`cp .env.example .env`
 
 `docker-compose up`
+
+`npm run dev` 
+
+http://localhost:5000
 
 ## Deploying
 

@@ -1,18 +1,31 @@
 <div class="resume">
     <div class="container">
         <h1>Resume</h1>
-        <p><a href="/Alistair Shaw Resume 2019.pdf" target="_blank">Download full Resume in PDF format</a></p>
+        <p><a href="/Alistair Shaw Resume 2020.pdf" target="_blank">Download full Resume in PDF format</a></p>
         <h2>Work Experience</h2>
         <ul class="timeline">
             <li>
                 <article>
+                    <h3>Interim Director of Engineering</h3>
+                    <p class="company">Loop Returns <i class="fa fa-circle"></i>
+                        <span>January 2020 - Present</span></p>
+                    <p>
+                        Building multiple engineering and product teams. Introduced continuous integration and other agile
+                        practices and frameworks for organizational scale. Training teams on refactoring and object oriented
+                        principles. Scaled application architecture to 10x capacity to meet predicted business needs.
+                        Leading the re-orientation of the engineering organization to product driven, cross-functional teams.
+                    </p>
+                </article>
+            </li>
+            <li>
+                <article>
                     <h3>CTO</h3>
                     <p class="company">Sprint Media Limited <i class="fa fa-circle"></i>
-                        <span>January 2017 - Present</span></p>
+                        <span>January 2017 - January 2020</span></p>
                     <p>
-                        Introducing a new toolchain including Go, Docker Swarm and Elasticsearch to implement a
-                        transformation to a more scalable micro-services architecture in order to prepare
-                        for sales expansion into new markets.
+                        Built a high performing engineering team from scratch. Introduced a new toolchain
+                        including Go, Docker Swarm and Elasticsearch as part of a transformation to a more
+                        scalable micro-services architecture in preparation for significant expansion into new markets.
                     </p>
                 </article>
             </li>
@@ -23,9 +36,9 @@
                         <span>July 2015 - January 2017</span></p>
                     <p>
                         Engineered a complete SaaS video e-learning and collaboration platform for the medical
-                        industry using a distributed services architecture. Created Rest API endpoints to support
+                        industry using a distributed services architecture. Built the infrastructure to support
                         the development and deployment of multiple marketing and news aggregation platforms for
-                        sales and marketing.
+                        sales and marketing organizations.
                     </p>
                 </article>
             </li>
@@ -35,9 +48,10 @@
                     <p class="company">Ambitious Digital Limited <i class="fa fa-circle"></i>
                         <span>September 2012 - July 2015</span></p>
                     <p>
-                        Used excellent communication skills and advanced business knowledge to help secure
+                        Leveraged communication skills and significant business experience to help secure
                         diverse projects for the company - including an online language learning platform and a
-                        warehouse management / stock control system for a large electronics company.
+                        warehouse management / stock control system for a large electronics company. Hired and led
+                        a high performing team of consultants delivering value across multiple domains.
                     </p>
                 </article>
             </li>
